@@ -79,6 +79,9 @@
                     </view>
                     <connections>
                         <outlet property="athleticsButton" destination="VWp-ob-OO9" id="XS2-cY-Lrx"/>
+                        <outlet property="clubEventsButton" destination="UgW-ZY-v5e" id="5oN-Mp-D7c"/>
+                        <outlet property="formalSchoolEventsButton" destination="Ckm-vb-IyL" id="tCT-rp-cxl"/>
+                        <outlet property="othersButton" destination="udm-ge-R97" id="MZd-tp-Gp7"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
