@@ -11,6 +11,9 @@
 		643EAC8F21D3458500FEBF48 /* athleticsTeamsPage.xib in Resources */ = {isa = PBXBuildFile; fileRef = 643EAC8E21D3458500FEBF48 /* athleticsTeamsPage.xib */; };
 		643EAC9121D34EA300FEBF48 /* athleticsEventPage.xib in Resources */ = {isa = PBXBuildFile; fileRef = 643EAC9021D34EA300FEBF48 /* athleticsEventPage.xib */; };
 		643EAC9321D47C1B00FEBF48 /* homePageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 643EAC9221D47C1B00FEBF48 /* homePageViewController.swift */; };
+		6472402221DC75720090DAB6 /* athleticsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6472402121DC75720090DAB6 /* athleticsViewController.swift */; };
+		6472402421DC78AB0090DAB6 /* formalEventsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6472402321DC78AB0090DAB6 /* formalEventsViewController.swift */; };
+		6472402621DC7D8C0090DAB6 /* athleticsEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6472402521DC7D8C0090DAB6 /* athleticsEvent.swift */; };
 		64A566CE21D087A500276A0E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64A566CD21D087A500276A0E /* AppDelegate.swift */; };
 		64A566D021D087A500276A0E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64A566CF21D087A500276A0E /* ViewController.swift */; };
 		64A566D321D087A500276A0E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 64A566D121D087A500276A0E /* Main.storyboard */; };
@@ -48,6 +51,9 @@
 		643EAC8E21D3458500FEBF48 /* athleticsTeamsPage.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = athleticsTeamsPage.xib; sourceTree = "<group>"; };
 		643EAC9021D34EA300FEBF48 /* athleticsEventPage.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = athleticsEventPage.xib; sourceTree = "<group>"; };
 		643EAC9221D47C1B00FEBF48 /* homePageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = homePageViewController.swift; sourceTree = "<group>"; };
+		6472402121DC75720090DAB6 /* athleticsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = athleticsViewController.swift; sourceTree = "<group>"; };
+		6472402321DC78AB0090DAB6 /* formalEventsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = formalEventsViewController.swift; sourceTree = "<group>"; };
+		6472402521DC7D8C0090DAB6 /* athleticsEvent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = athleticsEvent.swift; sourceTree = "<group>"; };
 		64A566CA21D087A500276A0E /* Hotchkiss Events.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Hotchkiss Events.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		64A566CD21D087A500276A0E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		64A566CF21D087A500276A0E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -121,9 +127,11 @@
 				64A566CF21D087A500276A0E /* ViewController.swift */,
 				64A566D121D087A500276A0E /* Main.storyboard */,
 				643EAC8C21D33F5000FEBF48 /* athleticsHomePage.xib */,
+				6472402121DC75720090DAB6 /* athleticsViewController.swift */,
 				643EAC8E21D3458500FEBF48 /* athleticsTeamsPage.xib */,
 				643EAC9021D34EA300FEBF48 /* athleticsEventPage.xib */,
 				64DA4CDC21D879CB00302492 /* formalEventsHomePage.xib */,
+				6472402321DC78AB0090DAB6 /* formalEventsViewController.swift */,
 				64DA4CDE21D8807300302492 /* formalEventsEventPage.xib */,
 				64DA4CE021D88B8900302492 /* formalEventsEventPage1.xib */,
 				64DA4CE221D9E59400302492 /* clubsHomePage.xib */,
@@ -133,6 +141,7 @@
 				64A566D921D087A600276A0E /* Info.plist */,
 				64A566FF21D08DDD00276A0E /* homePage.xib */,
 				643EAC9221D47C1B00FEBF48 /* homePageViewController.swift */,
+				6472402521DC7D8C0090DAB6 /* athleticsEvent.swift */,
 			);
 			path = "Hotchkiss Events";
 			sourceTree = "<group>";
@@ -295,7 +304,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6472402421DC78AB0090DAB6 /* formalEventsViewController.swift in Sources */,
+				6472402621DC7D8C0090DAB6 /* athleticsEvent.swift in Sources */,
 				643EAC9321D47C1B00FEBF48 /* homePageViewController.swift in Sources */,
+				6472402221DC75720090DAB6 /* athleticsViewController.swift in Sources */,
 				64A566D021D087A500276A0E /* ViewController.swift in Sources */,
 				64A566CE21D087A500276A0E /* AppDelegate.swift in Sources */,
 			);

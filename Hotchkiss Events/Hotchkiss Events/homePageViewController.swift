@@ -21,13 +21,27 @@ class homePageViewController:UIViewController
         clubEventsButton?.backgroundColor = UIColor.init(displayP3Red: 238.0/255, green: 245.0/255, blue: 254.0/255, alpha: 1.0)
         othersButton?.backgroundColor = UIColor.init(displayP3Red: 238.0/255, green: 245.0/255, blue: 254.0/255, alpha: 1.0)
         
-        athleticsButton?.addTarget(self, action: #selector(buttonTap), for: .touchUpInside)
-    formalSchoolEventsButton?.addTarget(self, action: #selector(buttonTap), for: .touchUpInside)
-        clubEventsButton?.addTarget(self, action: #selector(buttonTap), for: .touchUpInside)
-        othersButton?.addTarget(self, action: #selector(buttonTap), for: .touchUpInside)
+        athleticsButton?.addTarget(self, action: #selector(athleticsButtonTap), for: .touchUpInside)
+    formalSchoolEventsButton?.addTarget(self, action: #selector(formalSchoolEventsButtonTap), for: .touchUpInside)
+        clubEventsButton?.addTarget(self, action: #selector(clubEventsButtonTap), for: .touchUpInside)
+        othersButton?.addTarget(self, action: #selector(othersButtonTap), for: .touchUpInside)
         
     }
-    @objc func buttonTap()
+    @objc func athleticsButtonTap()
+    {
+        //let athleticsvc = UIViewController(nibName: "athleticsHomePage", bundle: nil)
+        //let nav = self.navigationController
+        //nav?.pushViewController(athleticsvc, animated: true)
+    }
+    @objc func formalSchoolEventsButtonTap()
+    {
+        //print ("hello")
+    }
+    @objc func clubEventsButtonTap()
+    {
+        //print ("hello")
+    }
+    @objc func othersButtonTap()
     {
         //print ("hello")
     }
