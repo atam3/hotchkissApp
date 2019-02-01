@@ -1,0 +1,8 @@
+[
+{
+"teamName": "testTeam",
+"opponent": "testOpponent",
+"location": "testLocation",
+"roster": ["a", "b", "c", "d"],
+},
+]
