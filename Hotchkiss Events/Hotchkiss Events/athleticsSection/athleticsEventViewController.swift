@@ -13,7 +13,7 @@ class athleticsEventViewController: UIViewController
     @IBOutlet weak var opponentLabel: UILabel?
     @IBOutlet weak var timeLabel: UILabel?
     @IBOutlet weak var locationLabel: UILabel?
-    //@IBOutlet weak var rosterLabel: UILabel
+    @IBOutlet weak var rosterLabel: UILabel?
     
     var event: athleticsEvent?
     override func viewDidLoad()
@@ -22,7 +22,25 @@ class athleticsEventViewController: UIViewController
         opponentLabel?.text = event?.opponent
         timeLabel?.text = event?.time?.description
         locationLabel?.text = event?.location
-        //teamNameLabel?.text = event?.teamName
+        rosterLabel?.numberOfLines = 0
+        
+        let roster = event!.roster!
+        var rosterlayout = ""
+        var i = 0
+        for _ in 0..<roster.count/2
+        {
+            rosterlayout+=(roster[i])
+            if i + 1 < roster.count
+            {
+                rosterlayout+=", " + roster[i + 1]
+            }
+            i = i + 2
+            rosterlayout += "\n"
+        }
+            
+            rosterLabel?.text = rosterlayout
+        
+        
     }
 }
 

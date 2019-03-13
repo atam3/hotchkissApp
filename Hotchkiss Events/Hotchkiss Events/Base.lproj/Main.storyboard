@@ -164,10 +164,10 @@
             </objects>
             <point key="canvasLocation" x="2237.5999999999999" y="-698.5007496251875"/>
         </scene>
-        <!--View Controller-->
+        <!--Athletics Teams Page View Controller-->
         <scene sceneID="6bl-Yr-Jhi">
             <objects>
-                <viewController id="06m-u1-oUP" sceneMemberID="viewController">
+                <viewController id="06m-u1-oUP" customClass="athleticsTeamsPageViewController" customModule="Hotchkiss_Events" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="gwk-jC-L9w">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -280,7 +280,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Roster:" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Wso-ah-9vo">
-                                <rect key="frame" x="16" y="472" width="337" height="175"/>
+                                <rect key="frame" x="16" y="472" width="63" height="175"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
@@ -314,6 +314,13 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="&lt;description&gt;" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YNm-h5-uvf">
+                                <rect key="frame" x="87" y="472" width="267" height="175"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="suJ-iN-ea5"/>
@@ -321,6 +328,7 @@
                     <connections>
                         <outlet property="locationLabel" destination="6Iq-TS-7my" id="Vgx-Yj-J7N"/>
                         <outlet property="opponentLabel" destination="Owd-cf-l2k" id="X7a-2M-vZ8"/>
+                        <outlet property="rosterLabel" destination="YNm-h5-uvf" id="pNC-CA-Lns"/>
                         <outlet property="teamNameLabel" destination="4pv-qy-v7R" id="Q2a-fh-5HW"/>
                         <outlet property="timeLabel" destination="jQ6-Hr-DEw" id="8OG-LE-oWG"/>
                     </connections>
@@ -847,8 +855,9 @@
                         <viewLayoutGuide key="safeArea" id="NaC-FJ-gPR"/>
                     </view>
                     <connections>
-                        <outlet property="descriptionLabel" destination="Flr-c4-bYi" id="20y-Cv-6Uw"/>
+                        <outlet property="descriptionLabel" destination="Flr-c4-bYi" id="IA5-es-8Rl"/>
                         <outlet property="dressCodeLabel" destination="SE8-gm-Zuc" id="69A-lh-YTm"/>
+                        <outlet property="eventNameLabel" destination="ZhD-6d-iLS" id="nrD-Ta-XAE"/>
                         <outlet property="locationLabel" destination="DQI-ub-aCt" id="8u7-cK-Euh"/>
                         <outlet property="timeLabel" destination="sUQ-H4-bZR" id="DlS-ZE-Daa"/>
                     </connections>

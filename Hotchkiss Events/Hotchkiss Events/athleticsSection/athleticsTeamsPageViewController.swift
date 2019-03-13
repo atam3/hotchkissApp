@@ -13,9 +13,11 @@ class athleticsTeamsPageViewController: UIViewController
     override func prepare(for segue: UIStoryboardSegue, sender: Any?)
     {
         let x = eventReader()
-        x.read(file: "")
+        x.readAthleticsEvents(file: "")
+        let event = x.athleticsEvents[0]
+        let y = (segue.destination as? athleticsEventViewController)
+        y?.event = event
         
-        (segue.source as? athleticsEventViewController)?.event = x.events.first
-        
+     
     }
 }

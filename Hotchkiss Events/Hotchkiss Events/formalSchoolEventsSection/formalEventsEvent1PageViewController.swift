@@ -9,6 +9,7 @@
 import UIKit
 class formalEventsEvent1ViewController: UIViewController
 {
+    @IBOutlet weak var eventNameLabel: UILabel?
     @IBOutlet weak var timeLabel: UILabel?
     @IBOutlet weak var locationLabel: UILabel?
     @IBOutlet weak var dressCodeLabel: UILabel?
@@ -18,6 +19,7 @@ class formalEventsEvent1ViewController: UIViewController
     var event: formalSchoolEvent?
     override func viewDidLoad()
     {
+        eventNameLabel?.text = event?.eventName
         timeLabel?.text = event?.time?.description
         locationLabel?.text = event?.location
         dressCodeLabel?.text = event?.dressCode

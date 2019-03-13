@@ -13,19 +13,19 @@ class eventReader
     func readAthleticsEvents (file: String) //creating function to read from file
     {
         let decoder = JSONDecoder.init()
-        let url = Bundle.main.url(forResource: "athleticsEvent", withExtension: "json")
+        let url = Bundle.main.url(forResource: "athleticsEvents", withExtension: "json")
         let data = try! Data(contentsOf: url!)
         let events = try! decoder.decode([athleticsEvent].self, from: data)
         self.athleticsEvents = events
     }
     //for formal events
-    var formalSchoolEvents = [athleticsEvent]()
+    var formalSchoolEvents = [formalSchoolEvent]()
     func readFormalSchoolEvents (file: String) //creating function to read from file
     {
         let decoder = JSONDecoder.init()
         let url = Bundle.main.url(forResource: "formalSchoolEvents", withExtension: "json")
         let data = try! Data(contentsOf: url!)
-        let events = try! decoder.decode([formalSchoolEvents].self, from: data)
+        let events = try! decoder.decode([formalSchoolEvent].self, from: data)
         self.formalSchoolEvents = events
     }
 }

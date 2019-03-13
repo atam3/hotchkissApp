@@ -13,9 +13,18 @@ class formalEventsEventPageViewController: UIViewController
     override func prepare(for segue: UIStoryboardSegue, sender: Any?)
     {
         let x = eventReader()
-        x.read(file: "")
+        x.readFormalSchoolEvents(file: "")
+        let event = x.formalSchoolEvents[0]
+        let y = (segue.destination as? formalEventsEvent1ViewController)
         
-        (segue.source as? formalEventsEventPageViewController)?.event = x.events.first
+       
+        
+        
+        y?.eventNameLabel?.text = event.eventName
+        y?.descriptionLabel?.text = event.location
+        y?.dressCodeLabel?.text = event.dressCode
+        y?.event = event
+        y?.timeLabel?.text = event.time?.description
         
     }
 }

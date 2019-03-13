@@ -1,5 +1,6 @@
 [
     {
+        "eventName": "testEvent",
         "time": "testTime",
         "location": "testLocation",
         "dressCode": "testDressCode",

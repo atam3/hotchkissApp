@@ -12,7 +12,7 @@ class athleticsEvent: Codable
 {
     var teamName: String?
     var opponent: String?
-    var time: Date?
+    var time: String?
     var location: String?
     var roster: [String]?
 }

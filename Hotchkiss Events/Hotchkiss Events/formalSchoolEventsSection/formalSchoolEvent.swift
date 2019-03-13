@@ -7,9 +7,10 @@
 //
 
 import Foundation
-class formalSchoolEvent
+class formalSchoolEvent: Codable
 {
-    var time: Date?
+    var eventName: String?
+    var time: String?
     var location: String?
     var dressCode: String?
     var description: String?
