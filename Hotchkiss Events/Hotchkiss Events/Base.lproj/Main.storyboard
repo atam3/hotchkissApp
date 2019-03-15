@@ -335,7 +335,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dyu-xL-5Vx" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3021.5999999999999" y="-1040.3298350824589"/>
+            <point key="canvasLocation" x="3047" y="-1044"/>
         </scene>
         <!--Home Page View Controller-->
         <scene sceneID="tne-QT-ifu">
@@ -358,7 +358,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <connections>
-                                    <segue destination="dOa-c7-kZy" kind="show" id="XKe-sn-Fgb"/>
+                                    <segue destination="dOa-c7-kZy" kind="show" id="xjA-ea-h1z"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="udm-ge-R97">
@@ -424,10 +424,10 @@
             </objects>
             <point key="canvasLocation" x="669.60000000000002" y="26.53673163418291"/>
         </scene>
-        <!--View Controller-->
+        <!--Club Table View Controller-->
         <scene sceneID="ehM-ne-gsd">
             <objects>
-                <viewController id="dOa-c7-kZy" sceneMemberID="viewController">
+                <viewController id="dOa-c7-kZy" customClass="clubTableViewController" customModule="Hotchkiss_Events" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="F36-x8-Fbt">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -439,50 +439,6 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="E0t-UU-iMz">
-                                <rect key="frame" x="16" y="157" width="343" height="490"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <subviews>
-                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="phP-Dp-IEm">
-                                        <rect key="frame" x="8" y="8" width="327" height="50"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <state key="normal" title="Event Name"/>
-                                        <connections>
-                                            <segue destination="rXk-4R-kkm" kind="show" id="txz-0O-AHh"/>
-                                        </connections>
-                                    </button>
-                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1It-Cc-Neh">
-                                        <rect key="frame" x="8" y="73" width="327" height="50"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <state key="normal" title="Event Name"/>
-                                    </button>
-                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fyr-zz-LvA">
-                                        <rect key="frame" x="8" y="138" width="327" height="50"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <state key="normal" title="Event Name"/>
-                                    </button>
-                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OfY-AB-hgL">
-                                        <rect key="frame" x="8" y="198" width="327" height="50"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <state key="normal" title="Event Name"/>
-                                    </button>
-                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KJx-CL-zhn">
-                                        <rect key="frame" x="8" y="263" width="327" height="50"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <state key="normal" title="Event Name"/>
-                                    </button>
-                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="325-1i-K5E">
-                                        <rect key="frame" x="8" y="328" width="327" height="50"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <state key="normal" title="Event Name"/>
-                                    </button>
-                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pXd-Zn-Cjr">
-                                        <rect key="frame" x="8" y="393" width="327" height="50"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <state key="normal" title="Event Name"/>
-                                    </button>
-                                </subviews>
-                            </scrollView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Club Events/News" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Nnw-uE-YTN">
                                 <rect key="frame" x="104" y="104" width="166" height="35"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -490,10 +446,18 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="Xn1-Xe-sGc">
+                                <rect key="frame" x="16" y="156" width="343" height="491"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </tableView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="mly-6X-Eha"/>
                     </view>
+                    <connections>
+                        <outlet property="tableView" destination="Xn1-Xe-sGc" id="Ser-xH-fAy"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="0ek-H2-TQQ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -618,10 +582,10 @@
             </objects>
             <point key="canvasLocation" x="1457" y="27"/>
         </scene>
-        <!--View Controller-->
+        <!--Formal Events Event Page View Controller-->
         <scene sceneID="XoN-Rq-zzz">
             <objects>
-                <viewController id="ljD-bj-d0H" sceneMemberID="viewController">
+                <viewController id="ljD-bj-d0H" customClass="formalEventsEventPageViewController" customModule="Hotchkiss_Events" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Hgs-of-8z8">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -693,10 +657,10 @@
             </objects>
             <point key="canvasLocation" x="2237.5999999999999" y="26.53673163418291"/>
         </scene>
-        <!--View Controller-->
+        <!--Formal Events Event Page View Controller-->
         <scene sceneID="0k9-cM-SsL">
             <objects>
-                <viewController id="tBn-Sb-wz7" sceneMemberID="viewController">
+                <viewController id="tBn-Sb-wz7" customClass="formalEventsEventPageViewController" customModule="Hotchkiss_Events" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="tIB-5Y-rbG">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>

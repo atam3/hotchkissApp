@@ -6,4 +6,12 @@
 "time": "testTime",
 "roster": ["a", "b", "c", "d"],
 },
+
+{
+    "teamName": "new",
+    "opponent": "new",
+    "location": "new",
+    "time": "testTime",
+    "roster": ["a", "b", "c", "d"],
+},
 ]

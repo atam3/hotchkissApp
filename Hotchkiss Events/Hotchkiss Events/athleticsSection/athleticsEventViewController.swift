@@ -16,8 +16,8 @@ class athleticsEventViewController: UIViewController
     @IBOutlet weak var rosterLabel: UILabel?
     
     var event: athleticsEvent?
-    override func viewDidLoad()
-    {
+    override func viewWillAppear(_ animated: Bool) {
+        
         teamNameLabel?.text = event?.teamName
         opponentLabel?.text = event?.opponent
         timeLabel?.text = event?.time?.description
