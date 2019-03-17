@@ -15,6 +15,8 @@
 		6458BEE621DDCD550083821D /* clubEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6458BEE521DDCD550083821D /* clubEvent.swift */; };
 		64707B20223B5D060064285B /* formalSchoolEvents.json in Resources */ = {isa = PBXBuildFile; fileRef = 64EE587D22069F5300F27D2A /* formalSchoolEvents.json */; };
 		64707B22223B607F0064285B /* clubTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64707B21223B607F0064285B /* clubTableViewController.swift */; };
+		64707B24223DE85B0064285B /* formalTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64707B23223DE85B0064285B /* formalTableViewController.swift */; };
+		64707B26223DEF990064285B /* athleticsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64707B25223DEF990064285B /* athleticsTableViewController.swift */; };
 		6472402221DC75720090DAB6 /* athleticsEventViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6472402121DC75720090DAB6 /* athleticsEventViewController.swift */; };
 		6472402421DC78AB0090DAB6 /* formalEventsEventPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6472402321DC78AB0090DAB6 /* formalEventsEventPageViewController.swift */; };
 		6472402621DC7D8C0090DAB6 /* athleticsEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6472402521DC7D8C0090DAB6 /* athleticsEvent.swift */; };
@@ -62,6 +64,8 @@
 		6458BEE321DDC6840083821D /* formalSchoolEvent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = formalSchoolEvent.swift; sourceTree = "<group>"; };
 		6458BEE521DDCD550083821D /* clubEvent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = clubEvent.swift; sourceTree = "<group>"; };
 		64707B21223B607F0064285B /* clubTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = clubTableViewController.swift; sourceTree = "<group>"; };
+		64707B23223DE85B0064285B /* formalTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = formalTableViewController.swift; sourceTree = "<group>"; };
+		64707B25223DEF990064285B /* athleticsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = athleticsTableViewController.swift; sourceTree = "<group>"; };
 		6472402121DC75720090DAB6 /* athleticsEventViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = athleticsEventViewController.swift; sourceTree = "<group>"; };
 		6472402321DC78AB0090DAB6 /* formalEventsEventPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = formalEventsEventPageViewController.swift; sourceTree = "<group>"; };
 		6472402521DC7D8C0090DAB6 /* athleticsEvent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = athleticsEvent.swift; sourceTree = "<group>"; };
@@ -186,6 +190,7 @@
 				643EAC9021D34EA300FEBF48 /* athleticsEventPage.xib */,
 				6472402121DC75720090DAB6 /* athleticsEventViewController.swift */,
 				64E70ACE2203E19700F1BA82 /* athleticsEvents.json */,
+				64707B25223DEF990064285B /* athleticsTableViewController.swift */,
 			);
 			path = athleticsSection;
 			sourceTree = "<group>";
@@ -200,6 +205,7 @@
 				64DA4CE021D88B8900302492 /* formalEventsEventPage1.xib */,
 				64EE587F2206A14B00F27D2A /* formalEventsEvent1ViewController.swift */,
 				64EE587D22069F5300F27D2A /* formalSchoolEvents.json */,
+				64707B23223DE85B0064285B /* formalTableViewController.swift */,
 			);
 			path = formalSchoolEventsSection;
 			sourceTree = "<group>";
@@ -347,7 +353,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				64E70AD42203EDF600F1BA82 /* athleticsTeamsPageViewController.swift in Sources */,
+				64707B26223DEF990064285B /* athleticsTableViewController.swift in Sources */,
 				64707B22223B607F0064285B /* clubTableViewController.swift in Sources */,
+				64707B24223DE85B0064285B /* formalTableViewController.swift in Sources */,
 				6472402421DC78AB0090DAB6 /* formalEventsEventPageViewController.swift in Sources */,
 				6472402621DC7D8C0090DAB6 /* athleticsEvent.swift in Sources */,
 				64EE58802206A14B00F27D2A /* formalEventsEvent1ViewController.swift in Sources */,

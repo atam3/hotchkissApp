@@ -1,14 +1,13 @@
 //
-//  clubTableViewController.swift
+//  athleticsTableViewController.swift
 //  Hotchkiss Events
 //
-//  Created by Alex Tam on 3/15/19.
+//  Created by Alex Tam on 3/17/19.
 //  Copyright © 2019 Alex Tam. All rights reserved.
 //
 
-/*
 import UIKit
-class clubTableViewController: UIViewController, UITableViewDataSource, UITableViewDelegate
+class athleticsTableViewController: UIViewController, UITableViewDataSource, UITableViewDelegate
 {
     @IBOutlet weak var tableView: UITableView?
     var events = [athleticsEvent]()
@@ -47,4 +46,3 @@ class clubTableViewController: UIViewController, UITableViewDataSource, UITableV
     }
     
 }
-*/

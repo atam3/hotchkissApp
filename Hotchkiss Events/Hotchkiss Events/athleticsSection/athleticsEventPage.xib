@@ -12,7 +12,12 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="athleticsEventViewController" customModule="Hotchkiss_Events" customModuleProvider="target">
             <connections>
-                <outlet property="view" destination="JUe-mx-AhS" id="TMG-Wr-jND"/>
+                <outlet property="locationLabel" destination="Ymf-eR-Pfc" id="Jf4-3o-Qwk"/>
+                <outlet property="opponentLabel" destination="Yff-mD-W2g" id="k2M-h5-V8E"/>
+                <outlet property="rosterLabel" destination="beX-lX-45m" id="DJv-xC-OMr"/>
+                <outlet property="teamNameLabel" destination="XpG-32-da1" id="hnG-M6-kQ7"/>
+                <outlet property="timeLabel" destination="mim-6Z-9le" id="UHT-5s-R6E"/>
+                <outlet property="view" destination="JUe-mx-AhS" id="lQG-EM-1NI"/>
             </connections>
         </placeholder>
         <view contentMode="scaleToFill" id="JUe-mx-AhS">
