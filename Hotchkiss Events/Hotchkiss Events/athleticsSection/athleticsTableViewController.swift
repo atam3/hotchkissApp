@@ -19,12 +19,20 @@ class athleticsTableViewController: UIViewController, UITableViewDataSource, UIT
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell
     {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "cell") ?? UITableViewCell(style: .subtitle, reuseIdentifier: "cell")
+        var cell: athleticsCellViewTableViewCell?
+        
+        cell = tableView.dequeueReusableCell(withIdentifier: "cell") as? athleticsCellViewTableViewCell
+            //?? UITableViewCell(style: .subtitle, reuseIdentifier: "cell")
+        if cell == nil
+        {
+            let objects = Bundle.main.loadNibNamed("athleticsCellViewTableViewCell", owner: self, options: nil)
+            cell = objects?.first as? athleticsCellViewTableViewCell
+        }
         
         let event = events[indexPath.row]
-        cell.textLabel?.text = event.teamName
-        cell.detailTextLabel?.text = event.location
-        return cell
+        cell?.myLabel?.text = event.teamName
+        //cell?.detailTextLabel?.text = event.location
+        return cell!
     }
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath)
