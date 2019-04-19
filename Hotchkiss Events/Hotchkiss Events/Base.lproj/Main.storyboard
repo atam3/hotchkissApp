@@ -411,7 +411,7 @@
                                             <color key="titleColor" red="1" green="0.99998801950000005" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         </state>
                                         <connections>
-                                            <segue destination="ljD-bj-d0H" kind="show" id="rNx-rf-7VP"/>
+                                            <segue destination="EXY-m6-GJV" kind="show" id="4iF-Sp-44r"/>
                                         </connections>
                                     </button>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="musicperformance" translatesAutoresizingMaskIntoConstraints="NO" id="UBC-Pu-53E">
@@ -427,7 +427,7 @@
                                             <color key="titleColor" red="1" green="0.99998801950000005" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         </state>
                                         <connections>
-                                            <segue destination="EXY-m6-GJV" kind="show" id="lMM-ag-h4s"/>
+                                            <segue destination="ljD-bj-d0H" kind="show" id="PeN-jT-XKp"/>
                                         </connections>
                                     </button>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Entertainment Programs, Art Performances, School Trips, etc." lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rFK-zC-w0k">
