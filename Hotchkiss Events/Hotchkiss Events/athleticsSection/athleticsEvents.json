@@ -1,9 +1,17 @@
 [
-{
-"teamName": "testTeam",
-"opponent": "testOpponent",
-"location": "testLocation",
-"time": "testTime",
-"roster": ["a", "b", "c", "d"],
-}
+    {
+        "teamName": "testTeam",
+        "opponent": "testOpponent",
+        "location": "testLocation",
+        "time": "testTime",
+        "roster": ["a", "b", "c", "d"],
+    },
+    
+    {
+        "teamName": "testTeam2",
+        "opponent": "testOpponent2",
+        "location": "testLocation2",
+        "time": "testTime2",
+        "roster": ["a2", "b2", "c2", "d2"],
+    }
 ]

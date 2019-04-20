@@ -37,15 +37,12 @@ class athleticsTableViewController: UIViewController, UITableViewDataSource, UIT
     
     override func viewDidLoad()
     {
-        
-        let x = dataFetcher()
-        x.fetchAthleticsEvents { (events) in
-        
-
-        self.events = events
-        
         self.tableView?.dataSource = self
         self.tableView?.delegate = self
+        let x = dataFetcher()
+        x.fetchAthleticsEvents { (events) in
+        self.events = events
+            self.tableView?.reloadData()
         }
     }
     
