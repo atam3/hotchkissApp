@@ -17,8 +17,6 @@ class formalEventsEventPageViewController: UIViewController
         let event = x.formalSchoolEvents[0]
         let y = (segue.destination as? formalEventsEvent1ViewController)
         
-       
-        
         
         y?.eventNameLabel?.text = event.eventName
         y?.descriptionLabel?.text = event.location

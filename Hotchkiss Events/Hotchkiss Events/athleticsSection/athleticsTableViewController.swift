@@ -19,20 +19,12 @@ class athleticsTableViewController: UIViewController, UITableViewDataSource, UIT
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell
     {
-        var cell: athleticsCellViewTableViewCell?
-        
-        cell = tableView.dequeueReusableCell(withIdentifier: "cell") as? athleticsCellViewTableViewCell
-            //?? UITableViewCell(style: .subtitle, reuseIdentifier: "cell")
-        if cell == nil
-        {
-            let objects = Bundle.main.loadNibNamed("athleticsCellViewTableViewCell", owner: self, options: nil)
-            cell = objects?.first as? athleticsCellViewTableViewCell
-        }
+        let cell = tableView.dequeueReusableCell(withIdentifier: "cell") ?? UITableViewCell(style: .subtitle, reuseIdentifier: "cell")
         
         let event = events[indexPath.row]
-        cell?.myLabel?.text = event.teamName
-        //cell?.detailTextLabel?.text = event.location
-        return cell!
+        cell.textLabel?.text = event.teamName
+        cell.detailTextLabel?.text = event.location
+        return cell
     }
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath)
@@ -45,12 +37,16 @@ class athleticsTableViewController: UIViewController, UITableViewDataSource, UIT
     
     override func viewDidLoad()
     {
-        let x = eventReader()
-        x.readAthleticsEvents(file: "")
-        self.events = x.athleticsEvents
         
-        tableView?.dataSource = self
-        tableView?.delegate = self
+        let x = dataFetcher()
+        x.fetchAthleticsEvents { (events) in
+        
+
+        self.events = events
+        
+        self.tableView?.dataSource = self
+        self.tableView?.delegate = self
+        }
     }
     
 }

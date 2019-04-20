@@ -12,12 +12,12 @@ class athleticsTeamsPageViewController: UIViewController
 {
     override func prepare(for segue: UIStoryboardSegue, sender: Any?)
     {
-        let x = eventReader()
-        x.readAthleticsEvents(file: "")
-        let event = x.athleticsEvents[0]
-        let y = (segue.destination as? athleticsEventViewController)
-        y?.event = event
-        
-     
+        let x = dataFetcher()
+        x.fetchAthleticsEvents { (events) in
+            let event = events[0]
+            let y = (segue.destination as? athleticsEventViewController)
+            y?.event = event
+            
+        }
     }
 }
