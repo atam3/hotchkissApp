@@ -11,6 +11,7 @@ class dataFetcher
 {
     func fetchAthleticsEvents(completion:@escaping ([athleticsEvent]) -> ())
     {
+        
         let url = URL(string: "https://raw.githubusercontent.com/atam3/hotchkissApp/master/Hotchkiss%20Events/Hotchkiss%20Events/athleticsSection/athleticsEvents.json")
         let request = NSMutableURLRequest(url: url!)
         let task = URLSession.shared.dataTask(with: request as URLRequest)
