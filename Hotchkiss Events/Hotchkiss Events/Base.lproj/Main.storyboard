@@ -19,38 +19,12 @@
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <connections>
-                        <segue destination="FkL-bc-9Wb" kind="show" id="meJ-ro-Gzc"/>
+                        <segue destination="BYZ-38-t0r" kind="show" id="MCX-dB-Ykf"/>
                     </connections>
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="YYA-j9-lMI" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1093" y="45"/>
-        </scene>
-        <!--Title Page View Controller-->
-        <scene sceneID="H4g-3T-Ggv">
-            <objects>
-                <viewController id="FkL-bc-9Wb" customClass="titlePageViewController" customModule="Hotchkiss_Events" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="c9t-ZB-ykO">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="L5s-Qg-XdA">
-                                <rect key="frame" x="87" y="92" width="240" height="128"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                            </view>
-                        </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                        <viewLayoutGuide key="safeArea" id="Zx1-ba-8zF"/>
-                    </view>
-                    <connections>
-                        <outlet property="testTitleObject" destination="L5s-Qg-XdA" id="xBJ-Eb-BIi"/>
-                        <segue destination="BYZ-38-t0r" kind="show" id="utg-Pb-R56"/>
-                    </connections>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="FwA-7D-PLe" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="-245" y="45"/>
+            <point key="canvasLocation" x="-265" y="26"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="onT-m4-dhr">
