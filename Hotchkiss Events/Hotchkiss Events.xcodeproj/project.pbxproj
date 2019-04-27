@@ -33,6 +33,7 @@
 		64E70AD12203E64300F1BA82 /* athleticsEvents.json in Resources */ = {isa = PBXBuildFile; fileRef = 64E70ACE2203E19700F1BA82 /* athleticsEvents.json */; };
 		64E70AD42203EDF600F1BA82 /* athleticsTeamsPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64E70AD32203EDF600F1BA82 /* athleticsTeamsPageViewController.swift */; };
 		64EBF8E7226ABA590066516A /* dataFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64EBF8E6226ABA590066516A /* dataFetcher.swift */; };
+		64EBF8EC226AC7FE0066516A /* titlePageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64EBF8EA226AC7FE0066516A /* titlePageViewController.swift */; };
 		64EE58802206A14B00F27D2A /* formalEventsEvent1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64EE587F2206A14B00F27D2A /* formalEventsEvent1ViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -85,6 +86,7 @@
 		64E70ACF2203E2C200F1BA82 /* eventReader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = eventReader.swift; sourceTree = "<group>"; };
 		64E70AD32203EDF600F1BA82 /* athleticsTeamsPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = athleticsTeamsPageViewController.swift; sourceTree = "<group>"; };
 		64EBF8E6226ABA590066516A /* dataFetcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dataFetcher.swift; sourceTree = "<group>"; };
+		64EBF8EA226AC7FE0066516A /* titlePageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = titlePageViewController.swift; sourceTree = "<group>"; };
 		64EE587D22069F5300F27D2A /* formalSchoolEvents.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = formalSchoolEvents.json; sourceTree = "<group>"; };
 		64EE587F2206A14B00F27D2A /* formalEventsEvent1ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = formalEventsEvent1ViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -137,6 +139,7 @@
 		64A566CC21D087A500276A0E /* Hotchkiss Events */ = {
 			isa = PBXGroup;
 			children = (
+				64EBF8EA226AC7FE0066516A /* titlePageViewController.swift */,
 				643EAC9221D47C1B00FEBF48 /* homePageViewController.swift */,
 				64E70AD22203EAD700F1BA82 /* athleticsSection */,
 				64EE587E2206A02000F27D2A /* formalSchoolEventsSection */,
@@ -347,6 +350,7 @@
 				6472402421DC78AB0090DAB6 /* formalEventsEventPageViewController.swift in Sources */,
 				6472402621DC7D8C0090DAB6 /* athleticsEvent.swift in Sources */,
 				64EE58802206A14B00F27D2A /* formalEventsEvent1ViewController.swift in Sources */,
+				64EBF8EC226AC7FE0066516A /* titlePageViewController.swift in Sources */,
 				6458BEE421DDC6840083821D /* formalSchoolEvent.swift in Sources */,
 				64EBF8E7226ABA590066516A /* dataFetcher.swift in Sources */,
 				64E70AD02203E2C200F1BA82 /* eventReader.swift in Sources */,
