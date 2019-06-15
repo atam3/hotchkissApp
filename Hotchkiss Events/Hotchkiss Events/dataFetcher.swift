@@ -11,7 +11,6 @@ class dataFetcher
 {
     func fetchAthleticsEvents(completion:@escaping ([athleticsEvent]) -> ())
     {
-        
         let url = URL(string: "https://raw.githubusercontent.com/atam3/hotchkissApp/master/Hotchkiss%20Events/Hotchkiss%20Events/athleticsSection/athleticsEvents.json")
         let request = NSMutableURLRequest(url: url!)
         let task = URLSession.shared.dataTask(with: request as URLRequest)
@@ -35,8 +34,28 @@ class dataFetcher
         task.resume()
     }
     
-    func fetchFormalSchoolEvents()
+    func fetchFormalSchoolEvents(completion: @escaping ([formalSchoolEvent]) -> ())
     {
-        
+        let url = URL(string: "https://raw.githubusercontent.com/atam3/hotchkissApp/master/Hotchkiss%20Events/Hotchkiss%20Events/formalSchoolEventsSection/formalSchoolEvents.json")
+        let request = NSMutableURLRequest(url: url!)
+        let task = URLSession.shared.dataTask(with: request as URLRequest)
+        {
+            (data, respose, error) in
+            DispatchQueue.main.async //getting back on the main thread
+                {
+                    if let data = data
+                    {
+                        let decoder = JSONDecoder.init()
+                        let events = try! decoder.decode([formalSchoolEvent].self, from: data)
+                        completion(events)
+                    }
+                    else //error handling
+                    {
+                        print(error?.localizedDescription ?? "error")
+                        return
+                    }
+            }
+        }
+        task.resume()
     }
 }

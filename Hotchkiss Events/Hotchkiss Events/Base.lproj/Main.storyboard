@@ -308,10 +308,6 @@ App</string>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <navigationItem key="navigationItem" id="W2J-Ua-JXf"/>
-                    <connections>
-                        <outlet property="athleticsButton" destination="Gqa-H9-Bli" id="vws-4g-GNA"/>
-                        <outlet property="formalSchoolEventsButton" destination="Ckm-vb-IyL" id="dAW-nE-xMd"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>

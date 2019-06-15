@@ -14,6 +14,7 @@ class athleticsEventViewController: UIViewController
     @IBOutlet weak var timeLabel: UILabel?
     @IBOutlet weak var locationLabel: UILabel?
     @IBOutlet weak var rosterLabel: UILabel?
+    @IBOutlet weak var mediaButton: UIButton?
     
     var event: athleticsEvent?
     override func viewWillAppear(_ animated: Bool) {
@@ -40,7 +41,14 @@ class athleticsEventViewController: UIViewController
             
             rosterLabel?.text = rosterlayout
         
-        
+        mediaButton?.addTarget(self, action: #selector(mediaButtonPressed), for: .touchUpInside)
+    }
+    @objc func mediaButtonPressed()
+    {
+        let controller = athleticsMediaViewController()
+        event?.imageNames = ["trails2"]
+        controller.athleticsEvent = event
+        navigationController?.pushViewController(controller, animated: true)
     }
 }
 

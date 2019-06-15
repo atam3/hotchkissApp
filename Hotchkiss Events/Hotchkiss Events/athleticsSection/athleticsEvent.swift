@@ -15,6 +15,7 @@ class athleticsEvent: Codable
     var time: String?
     var location: String?
     var roster: [String]?
+    var imageNames: [String]?
 }
 
 

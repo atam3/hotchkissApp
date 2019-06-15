@@ -11,6 +11,10 @@
 		643EAC8F21D3458500FEBF48 /* athleticsTeamsPage.xib in Resources */ = {isa = PBXBuildFile; fileRef = 643EAC8E21D3458500FEBF48 /* athleticsTeamsPage.xib */; };
 		643EAC9121D34EA300FEBF48 /* athleticsEventPage.xib in Resources */ = {isa = PBXBuildFile; fileRef = 643EAC9021D34EA300FEBF48 /* athleticsEventPage.xib */; };
 		643EAC9321D47C1B00FEBF48 /* homePageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 643EAC9221D47C1B00FEBF48 /* homePageViewController.swift */; };
+		6457F2F222B48BF200CF36D0 /* trails2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6457F2F122B48BF200CF36D0 /* trails2.jpg */; };
+		6457F2F422B48C1400CF36D0 /* imageReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6457F2F322B48C1400CF36D0 /* imageReader.swift */; };
+		6457F2F722B48E0100CF36D0 /* athleticsMediaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6457F2F522B48E0100CF36D0 /* athleticsMediaViewController.swift */; };
+		6457F2F822B48E0100CF36D0 /* athleticsMediaViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6457F2F622B48E0100CF36D0 /* athleticsMediaViewController.xib */; };
 		6458BEE421DDC6840083821D /* formalSchoolEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6458BEE321DDC6840083821D /* formalSchoolEvent.swift */; };
 		64707B20223B5D060064285B /* formalSchoolEvents.json in Resources */ = {isa = PBXBuildFile; fileRef = 64EE587D22069F5300F27D2A /* formalSchoolEvents.json */; };
 		64707B24223DE85B0064285B /* formalTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64707B23223DE85B0064285B /* formalTableViewController.swift */; };
@@ -59,6 +63,10 @@
 		643EAC8E21D3458500FEBF48 /* athleticsTeamsPage.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = athleticsTeamsPage.xib; sourceTree = "<group>"; };
 		643EAC9021D34EA300FEBF48 /* athleticsEventPage.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = athleticsEventPage.xib; sourceTree = "<group>"; };
 		643EAC9221D47C1B00FEBF48 /* homePageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = homePageViewController.swift; sourceTree = "<group>"; };
+		6457F2F122B48BF200CF36D0 /* trails2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = trails2.jpg; sourceTree = "<group>"; };
+		6457F2F322B48C1400CF36D0 /* imageReader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = imageReader.swift; sourceTree = "<group>"; };
+		6457F2F522B48E0100CF36D0 /* athleticsMediaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = athleticsMediaViewController.swift; sourceTree = "<group>"; };
+		6457F2F622B48E0100CF36D0 /* athleticsMediaViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = athleticsMediaViewController.xib; sourceTree = "<group>"; };
 		6458BEE321DDC6840083821D /* formalSchoolEvent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = formalSchoolEvent.swift; sourceTree = "<group>"; };
 		64707B23223DE85B0064285B /* formalTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = formalTableViewController.swift; sourceTree = "<group>"; };
 		64707B25223DEF990064285B /* athleticsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = athleticsTableViewController.swift; sourceTree = "<group>"; };
@@ -116,6 +124,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6457F2F022B48B3A00CF36D0 /* Media */ = {
+			isa = PBXGroup;
+			children = (
+				6457F2F122B48BF200CF36D0 /* trails2.jpg */,
+			);
+			path = Media;
+			sourceTree = "<group>";
+		};
 		64A566C121D087A500276A0E = {
 			isa = PBXGroup;
 			children = (
@@ -139,6 +155,7 @@
 		64A566CC21D087A500276A0E /* Hotchkiss Events */ = {
 			isa = PBXGroup;
 			children = (
+				6457F2F022B48B3A00CF36D0 /* Media */,
 				64EBF8EA226AC7FE0066516A /* titlePageViewController.swift */,
 				643EAC9221D47C1B00FEBF48 /* homePageViewController.swift */,
 				64E70AD22203EAD700F1BA82 /* athleticsSection */,
@@ -151,6 +168,7 @@
 				64A566D921D087A600276A0E /* Info.plist */,
 				64A566FF21D08DDD00276A0E /* homePage.xib */,
 				64E70ACF2203E2C200F1BA82 /* eventReader.swift */,
+				6457F2F322B48C1400CF36D0 /* imageReader.swift */,
 				64EBF8E6226ABA590066516A /* dataFetcher.swift */,
 			);
 			path = "Hotchkiss Events";
@@ -185,6 +203,8 @@
 				6472402121DC75720090DAB6 /* athleticsEventViewController.swift */,
 				64E70ACE2203E19700F1BA82 /* athleticsEvents.json */,
 				64707B25223DEF990064285B /* athleticsTableViewController.swift */,
+				6457F2F522B48E0100CF36D0 /* athleticsMediaViewController.swift */,
+				6457F2F622B48E0100CF36D0 /* athleticsMediaViewController.xib */,
 			);
 			path = athleticsSection;
 			sourceTree = "<group>";
@@ -311,12 +331,14 @@
 				64707B20223B5D060064285B /* formalSchoolEvents.json in Resources */,
 				643EAC9121D34EA300FEBF48 /* athleticsEventPage.xib in Resources */,
 				64A5670021D08DDD00276A0E /* homePage.xib in Resources */,
+				6457F2F222B48BF200CF36D0 /* trails2.jpg in Resources */,
 				643EAC8D21D33F5000FEBF48 /* athleticsHomePage.xib in Resources */,
 				64A566D821D087A600276A0E /* LaunchScreen.storyboard in Resources */,
 				64DA4CDF21D8807300302492 /* formalEventsEventPage.xib in Resources */,
 				64E70AD12203E64300F1BA82 /* athleticsEvents.json in Resources */,
 				64DA4CDD21D879CB00302492 /* formalEventsHomePage.xib in Resources */,
 				64DA4CE121D88B8900302492 /* formalEventsEventPage1.xib in Resources */,
+				6457F2F822B48E0100CF36D0 /* athleticsMediaViewController.xib in Resources */,
 				64A566D521D087A600276A0E /* Assets.xcassets in Resources */,
 				643EAC8F21D3458500FEBF48 /* athleticsTeamsPage.xib in Resources */,
 				64A566D321D087A500276A0E /* Main.storyboard in Resources */,
@@ -345,6 +367,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				64E70AD42203EDF600F1BA82 /* athleticsTeamsPageViewController.swift in Sources */,
+				6457F2F722B48E0100CF36D0 /* athleticsMediaViewController.swift in Sources */,
 				64707B26223DEF990064285B /* athleticsTableViewController.swift in Sources */,
 				64707B24223DE85B0064285B /* formalTableViewController.swift in Sources */,
 				6472402421DC78AB0090DAB6 /* formalEventsEventPageViewController.swift in Sources */,
@@ -354,6 +377,7 @@
 				6458BEE421DDC6840083821D /* formalSchoolEvent.swift in Sources */,
 				64EBF8E7226ABA590066516A /* dataFetcher.swift in Sources */,
 				64E70AD02203E2C200F1BA82 /* eventReader.swift in Sources */,
+				6457F2F422B48C1400CF36D0 /* imageReader.swift in Sources */,
 				643EAC9321D47C1B00FEBF48 /* homePageViewController.swift in Sources */,
 				6472402221DC75720090DAB6 /* athleticsEventViewController.swift in Sources */,
 				64A566D021D087A500276A0E /* ViewController.swift in Sources */,
