@@ -46,7 +46,8 @@ class athleticsEventViewController: UIViewController
     @objc func mediaButtonPressed()
     {
         let controller = athleticsMediaViewController()
-        event?.imageNames = ["trails2"]
+        //FIXME: this needs to go
+        event?.imageNames = ["trails2", "trails2", "trails2", "trails2", "trails2"]
         controller.athleticsEvent = event
         navigationController?.pushViewController(controller, animated: true)
     }

@@ -19,7 +19,7 @@ class athleticsMediaViewController: UIViewController, UICollectionViewDataSource
     override func viewDidLoad() {
         super.viewDidLoad()
         collectionView?.dataSource = self
-        collectionViewLayout?.itemSize = CGSize(width: 50, height: 50)
+        collectionViewLayout?.itemSize = CGSize(width: 100, height: 70)
         
         
         
@@ -38,6 +38,7 @@ class athleticsMediaViewController: UIViewController, UICollectionViewDataSource
         let imageView = cell.viewWithTag(4) as? UIImageView ?? UIImageView()
         imageView.tag = 4
         cell.contentView.addSubview(imageView)
+        imageView.frame = cell.contentView.bounds
         let image: UIImage?
         if let imageName = athleticsEvent?.imageNames?[indexPath.item]
         {
@@ -48,7 +49,50 @@ class athleticsMediaViewController: UIViewController, UICollectionViewDataSource
             image = nil
         }
         imageView.image = image
+        
+        let r = UITapGestureRecognizer(target: self, action: #selector(imageTap))
+        imageView.addGestureRecognizer(r)
+        imageView.isUserInteractionEnabled = true
+        
         return cell
     }
 
+    @objc func imageTap(r: UITapGestureRecognizer)
+    {
+        if let imageView = r.view as? UIImageView, let imageViewSuperView = imageView.superview
+        {
+            let fadeView = UIView(frame: self.view.bounds)
+            self.view.addSubview(fadeView)
+            fadeView.backgroundColor = .black
+            fadeView.alpha = 0
+            let enlargeImage = UIImageView(image: imageView.image)
+            enlargeImage.contentMode = .scaleAspectFit
+            
+            let r = UITapGestureRecognizer(target: self, action: #selector(imageClose))
+            fadeView.addGestureRecognizer(r)
+            fadeView.isUserInteractionEnabled = true
+            
+            
+            fadeView.addSubview(enlargeImage)
+            enlargeImage.frame = imageViewSuperView.convert(imageView.frame, to: fadeView)
+            UIView.animate(withDuration: 0.3, animations: {
+                enlargeImage.frame = self.view.bounds
+                fadeView.alpha = 1
+            }) { (_) in
+                
+            }
+        }
+    }
+    
+    @objc func imageClose(r: UITapGestureRecognizer)
+    {
+        if let fadeView = r.view
+        {
+            UIView.animate(withDuration: 0.5, animations: {
+                fadeView.alpha = 0
+            }) { (_) in
+               fadeView.removeFromSuperview()
+            }
+        }
+    }
 }
