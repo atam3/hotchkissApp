@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
     <device id="retina6_5" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -16,6 +16,7 @@
                 <outlet property="dressCodeLabel" destination="pCY-6n-mYC" id="0pi-Qo-cu3"/>
                 <outlet property="eventNameLabel" destination="FRh-7C-hAw" id="5sc-xv-wrb"/>
                 <outlet property="locationLabel" destination="wxc-FG-vYA" id="TXV-wt-KNn"/>
+                <outlet property="mediaButton" destination="r4i-mK-45F" id="6Rs-wa-aQd"/>
                 <outlet property="timeLabel" destination="fFq-dh-oKm" id="6wB-IY-3VC"/>
                 <outlet property="view" destination="5vJ-No-NFe" id="9tY-QF-W17"/>
             </connections>
@@ -94,11 +95,11 @@
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         </imageView>
                         <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="22-HOTCHKISS" translatesAutoresizingMaskIntoConstraints="NO" id="8tE-Ui-Rwq">
-                            <rect key="frame" x="0.0" y="0.0" width="110" height="110"/>
+                            <rect key="frame" x="0.0" y="0.0" width="125" height="125"/>
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         </imageView>
                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="THE HOTCHKISS SCHOOL" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OUY-ZM-P4N">
-                            <rect key="frame" x="113" y="0.0" width="301" height="110"/>
+                            <rect key="frame" x="122" y="0.0" width="288" height="125"/>
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             <fontDescription key="fontDescription" name="AvenirNext-Bold" family="Avenir Next" pointSize="22"/>
                             <color key="textColor" red="0.088765926659999994" green="0.16401907800000001" blue="0.34511664510000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -111,6 +112,12 @@
                             <color key="textColor" red="0.088765926659999994" green="0.16401907800000001" blue="0.34511664510000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                             <nil key="highlightedColor"/>
                         </label>
+                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="r4i-mK-45F">
+                            <rect key="frame" x="21" y="156" width="373" height="191"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <fontDescription key="fontDescription" name="HoeflerText-Black" family="Hoefler Text" pointSize="18"/>
+                            <state key="normal" title="Media"/>
+                        </button>
                     </subviews>
                     <color key="backgroundColor" red="0.81624442340000003" green="0.83469653129999999" blue="0.87059408429999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                 </view>

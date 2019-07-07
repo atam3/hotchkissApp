@@ -28,7 +28,7 @@
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                     <subviews>
                         <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="22-HOTCHKISS" translatesAutoresizingMaskIntoConstraints="NO" id="2wY-8O-fkg">
-                            <rect key="frame" x="0.0" y="0.0" width="110" height="110"/>
+                            <rect key="frame" x="0.0" y="0.0" width="125" height="125"/>
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         </imageView>
                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="&lt;teamName&gt;" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="10g-Pl-xKS">
@@ -39,7 +39,7 @@
                             <nil key="highlightedColor"/>
                         </label>
                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="THE HOTCHKISS SCHOOL" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="17K-ld-Oie">
-                            <rect key="frame" x="113" y="0.0" width="301" height="110"/>
+                            <rect key="frame" x="122" y="0.0" width="288" height="125"/>
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             <fontDescription key="fontDescription" name="AvenirNext-Bold" family="Avenir Next" pointSize="22"/>
                             <color key="textColor" red="0.088765926659999994" green="0.16401907800000001" blue="0.34511664510000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>

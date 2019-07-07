@@ -30,7 +30,7 @@
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                     <subviews>
                         <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="22-HOTCHKISS" translatesAutoresizingMaskIntoConstraints="NO" id="kVN-yM-d8a">
-                            <rect key="frame" x="0.0" y="0.0" width="110" height="110"/>
+                            <rect key="frame" x="0.0" y="0.0" width="125" height="125"/>
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         </imageView>
                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="&lt;description&gt;" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="beX-lX-45m">
@@ -116,7 +116,7 @@
                     <color key="backgroundColor" red="0.81624442340000003" green="0.83469653129999999" blue="0.87059408429999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                 </view>
                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="THE HOTCHKISS SCHOOL" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vOC-2o-dpC">
-                    <rect key="frame" x="109" y="85" width="301" height="110"/>
+                    <rect key="frame" x="122" y="85" width="288" height="125"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                     <fontDescription key="fontDescription" name="AvenirNext-Bold" family="Avenir Next" pointSize="22"/>
                     <color key="textColor" red="0.088765926659999994" green="0.16401907800000001" blue="0.34511664510000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>

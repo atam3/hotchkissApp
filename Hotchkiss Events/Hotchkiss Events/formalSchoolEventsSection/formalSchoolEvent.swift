@@ -14,4 +14,5 @@ class formalSchoolEvent: Codable
     var location: String?
     var dressCode: String?
     var description: String?
+    var imageNames: [String]?
 }
