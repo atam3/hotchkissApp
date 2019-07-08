@@ -1,0 +1,17 @@
+[
+    {
+        "teamName": "girlsTestTeam",
+        "opponent": "testOpponent",
+        "location": "testLocation",
+        "time": "testTime",
+        "roster": ["a", "b", "c", "d"],
+    },
+    
+    {
+        "teamName": "girlsTestTeam2",
+        "opponent": "testOpponent2",
+        "location": "testLocation2",
+        "time": "testTime2",
+        "roster": ["a2", "b2", "c2", "d2"],
+    }
+]

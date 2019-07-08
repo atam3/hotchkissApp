@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6417B9C622D3010D009693D6 /* athleticsEventsGirls.json in Resources */ = {isa = PBXBuildFile; fileRef = 6417B9C522D3010D009693D6 /* athleticsEventsGirls.json */; };
 		643EAC8D21D33F5000FEBF48 /* athleticsHomePage.xib in Resources */ = {isa = PBXBuildFile; fileRef = 643EAC8C21D33F5000FEBF48 /* athleticsHomePage.xib */; };
 		643EAC8F21D3458500FEBF48 /* athleticsTeamsPage.xib in Resources */ = {isa = PBXBuildFile; fileRef = 643EAC8E21D3458500FEBF48 /* athleticsTeamsPage.xib */; };
 		643EAC9121D34EA300FEBF48 /* athleticsEventPage.xib in Resources */ = {isa = PBXBuildFile; fileRef = 643EAC9021D34EA300FEBF48 /* athleticsEventPage.xib */; };
@@ -61,6 +62,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6417B9C522D3010D009693D6 /* athleticsEventsGirls.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = athleticsEventsGirls.json; sourceTree = "<group>"; };
 		643EAC8C21D33F5000FEBF48 /* athleticsHomePage.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = athleticsHomePage.xib; sourceTree = "<group>"; };
 		643EAC8E21D3458500FEBF48 /* athleticsTeamsPage.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = athleticsTeamsPage.xib; sourceTree = "<group>"; };
 		643EAC9021D34EA300FEBF48 /* athleticsEventPage.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = athleticsEventPage.xib; sourceTree = "<group>"; };
@@ -206,6 +208,7 @@
 				643EAC9021D34EA300FEBF48 /* athleticsEventPage.xib */,
 				6472402121DC75720090DAB6 /* athleticsEventViewController.swift */,
 				64E70ACE2203E19700F1BA82 /* athleticsEventsBoys.json */,
+				6417B9C522D3010D009693D6 /* athleticsEventsGirls.json */,
 				64707B25223DEF990064285B /* athleticsTableViewController.swift */,
 				6457F2F522B48E0100CF36D0 /* athleticsMediaViewController.swift */,
 				6457F2F622B48E0100CF36D0 /* athleticsMediaViewController.xib */,
@@ -345,6 +348,7 @@
 				64E70AD12203E64300F1BA82 /* athleticsEventsBoys.json in Resources */,
 				64DA4CDD21D879CB00302492 /* formalEventsHomePage.xib in Resources */,
 				64DA4CE121D88B8900302492 /* formalEventsEventPage1.xib in Resources */,
+				6417B9C622D3010D009693D6 /* athleticsEventsGirls.json in Resources */,
 				6457F2F822B48E0100CF36D0 /* athleticsMediaViewController.xib in Resources */,
 				64A566D521D087A600276A0E /* Assets.xcassets in Resources */,
 				643EAC8F21D3458500FEBF48 /* athleticsTeamsPage.xib in Resources */,

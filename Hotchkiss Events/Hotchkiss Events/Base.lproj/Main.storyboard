@@ -60,10 +60,10 @@
             </objects>
             <point key="canvasLocation" x="-246.37681159420291" y="44.866071428571423"/>
         </scene>
-        <!--View Controller-->
+        <!--Athletics Teams Page View Controller-->
         <scene sceneID="onT-m4-dhr">
             <objects>
-                <viewController id="LKG-fc-mAO" sceneMemberID="viewController">
+                <viewController id="LKG-fc-mAO" customClass="athleticsTeamsPageViewController" customModule="Hotchkiss_Events" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="3Uk-Fz-gFb">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -85,6 +85,7 @@
                                             <color key="titleColor" red="1" green="0.99998801950000005" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         </state>
                                         <connections>
+                                            <action selector="boysPressed" destination="LKG-fc-mAO" eventType="touchUpInside" id="TBT-4o-2Td"/>
                                             <segue destination="06m-u1-oUP" kind="show" id="ZuO-CW-Eak"/>
                                         </connections>
                                     </button>
@@ -101,6 +102,7 @@
                                             <color key="titleColor" red="1" green="0.99998801950000005" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         </state>
                                         <connections>
+                                            <action selector="girlsPressed" destination="LKG-fc-mAO" eventType="touchUpInside" id="Yz6-lM-mv4"/>
                                             <segue destination="Lad-VV-puH" kind="show" id="vea-Vd-XqW"/>
                                         </connections>
                                     </button>
@@ -136,6 +138,10 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="S6y-M8-ieQ"/>
                     </view>
+                    <connections>
+                        <outlet property="boysButton" destination="dIc-kC-MVz" id="WVX-We-u8Z"/>
+                        <outlet property="girlsButton" destination="U7M-HD-S0b" id="fN9-nN-71Z"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="M01-wc-6Pd" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -195,7 +201,7 @@
         <!--Athletics Table View Controller-->
         <scene sceneID="6bl-Yr-Jhi">
             <objects>
-                <viewController id="06m-u1-oUP" customClass="athleticsTableViewController" customModule="Hotchkiss_Events" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController restorationIdentifier="boysTableView" id="06m-u1-oUP" customClass="athleticsTableViewController" customModule="Hotchkiss_Events" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="gwk-jC-L9w">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -311,10 +317,10 @@
             </objects>
             <point key="canvasLocation" x="669.56521739130437" y="26.116071428571427"/>
         </scene>
-        <!--View Controller-->
+        <!--Formal Events Event Page View Controller-->
         <scene sceneID="aGS-zw-tLA">
             <objects>
-                <viewController id="gaZ-Ny-trf" sceneMemberID="viewController">
+                <viewController id="gaZ-Ny-trf" customClass="formalEventsEventPageViewController" customModule="Hotchkiss_Events" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="g5z-jh-ozn">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
