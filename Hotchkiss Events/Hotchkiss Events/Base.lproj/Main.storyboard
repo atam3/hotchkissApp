@@ -86,7 +86,6 @@
                                         </state>
                                         <connections>
                                             <action selector="boysPressed" destination="LKG-fc-mAO" eventType="touchUpInside" id="TBT-4o-2Td"/>
-                                            <segue destination="06m-u1-oUP" kind="show" id="ZuO-CW-Eak"/>
                                         </connections>
                                     </button>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="fieldhockey" translatesAutoresizingMaskIntoConstraints="NO" id="ixP-lb-4HL">
@@ -103,7 +102,6 @@
                                         </state>
                                         <connections>
                                             <action selector="girlsPressed" destination="LKG-fc-mAO" eventType="touchUpInside" id="Yz6-lM-mv4"/>
-                                            <segue destination="Lad-VV-puH" kind="show" id="vea-Vd-XqW"/>
                                         </connections>
                                     </button>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Spring Teams: Baseball, Golf, Lacrosse, Sailing, Tennis, Track and Field, Softball, Ultimate Frisbee and Water Polo." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cFo-dC-kQk">

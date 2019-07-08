@@ -18,10 +18,9 @@ class athleticsTeamsPageViewController: UIViewController
     {
         let x = dataFetcher()
         x.fetchAthleticsEvents(file: "athleticsEventsBoys", completion: { (events) in
-            let event = events[0]
-            let y = athleticsEventViewController()
-            y.event = event
-            
+            let y = athleticsTableViewController(nibName: "athleticsTableViewController", bundle: Bundle.main)
+            y.events = events
+            self.navigationController?.pushViewController(y, animated: true)
         })
     }
     
@@ -29,9 +28,9 @@ class athleticsTeamsPageViewController: UIViewController
     {
         let x = dataFetcher()
         x.fetchAthleticsEvents(file: "athleticsEventsGirls", completion: { (events) in
-            let event = events[0]
-            let y = athleticsEventViewController()
-            y.event = event
+            let y = athleticsTableViewController(nibName: "athleticsTableViewController", bundle: Bundle.main)
+            y.events = events
+            self.navigationController?.pushViewController(y, animated: true)
         })
     }
 }

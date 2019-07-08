@@ -19,7 +19,8 @@ class athleticsTableViewController: UIViewController, UITableViewDataSource, UIT
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell
     {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "cell") ?? UITableViewCell(style: .subtitle, reuseIdentifier: "cell")
+        let cell = tableView.dequeueReusableCell(withIdentifier: "cell") ?? UITableViewCell(style: .subtitle,
+                                                                                            reuseIdentifier: "cell")
         
         let event = events[indexPath.row]
         cell.textLabel?.text = event.teamName
@@ -39,11 +40,9 @@ class athleticsTableViewController: UIViewController, UITableViewDataSource, UIT
     {
         self.tableView?.dataSource = self
         self.tableView?.delegate = self
-        let x = dataFetcher()
-        x.fetchAthleticsEvents(file: "athleticsEventsBoys", completion: { (events) in
-            self.events = events
-            self.tableView?.reloadData()
-        })
+        
+        
+        
     }
     
 }
