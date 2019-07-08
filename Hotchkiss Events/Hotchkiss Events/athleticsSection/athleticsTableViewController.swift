@@ -40,10 +40,10 @@ class athleticsTableViewController: UIViewController, UITableViewDataSource, UIT
         self.tableView?.dataSource = self
         self.tableView?.delegate = self
         let x = dataFetcher()
-        x.fetchAthleticsEvents { (events) in
-        self.events = events
+        x.fetchAthleticsEvents(file: "athleticsEventsBoys", completion: { (events) in
+            self.events = events
             self.tableView?.reloadData()
-        }
+        })
     }
     
 }

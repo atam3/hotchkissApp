@@ -13,11 +13,11 @@ class athleticsTeamsPageViewController: UIViewController
     override func prepare(for segue: UIStoryboardSegue, sender: Any?)
     {
         let x = dataFetcher()
-        x.fetchAthleticsEvents { (events) in
+        x.fetchAthleticsEvents(file: "athleticsEventsBoys", completion: { (events) in
             let event = events[0]
             let y = (segue.destination as? athleticsEventViewController)
             y?.event = event
             
-        }
+        })
     }
 }

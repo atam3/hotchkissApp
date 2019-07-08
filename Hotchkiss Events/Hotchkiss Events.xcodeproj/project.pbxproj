@@ -34,7 +34,7 @@
 		64DA4CDF21D8807300302492 /* formalEventsEventPage.xib in Resources */ = {isa = PBXBuildFile; fileRef = 64DA4CDE21D8807300302492 /* formalEventsEventPage.xib */; };
 		64DA4CE121D88B8900302492 /* formalEventsEventPage1.xib in Resources */ = {isa = PBXBuildFile; fileRef = 64DA4CE021D88B8900302492 /* formalEventsEventPage1.xib */; };
 		64E70AD02203E2C200F1BA82 /* eventReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64E70ACF2203E2C200F1BA82 /* eventReader.swift */; };
-		64E70AD12203E64300F1BA82 /* athleticsEvents.json in Resources */ = {isa = PBXBuildFile; fileRef = 64E70ACE2203E19700F1BA82 /* athleticsEvents.json */; };
+		64E70AD12203E64300F1BA82 /* athleticsEventsBoys.json in Resources */ = {isa = PBXBuildFile; fileRef = 64E70ACE2203E19700F1BA82 /* athleticsEventsBoys.json */; };
 		64E70AD42203EDF600F1BA82 /* athleticsTeamsPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64E70AD32203EDF600F1BA82 /* athleticsTeamsPageViewController.swift */; };
 		64EBF8E7226ABA590066516A /* dataFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64EBF8E6226ABA590066516A /* dataFetcher.swift */; };
 		64EBF8EC226AC7FE0066516A /* titlePageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64EBF8EA226AC7FE0066516A /* titlePageViewController.swift */; };
@@ -92,7 +92,7 @@
 		64DA4CDC21D879CB00302492 /* formalEventsHomePage.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = formalEventsHomePage.xib; sourceTree = "<group>"; };
 		64DA4CDE21D8807300302492 /* formalEventsEventPage.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = formalEventsEventPage.xib; sourceTree = "<group>"; };
 		64DA4CE021D88B8900302492 /* formalEventsEventPage1.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = formalEventsEventPage1.xib; sourceTree = "<group>"; };
-		64E70ACE2203E19700F1BA82 /* athleticsEvents.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = athleticsEvents.json; sourceTree = "<group>"; };
+		64E70ACE2203E19700F1BA82 /* athleticsEventsBoys.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = athleticsEventsBoys.json; sourceTree = "<group>"; };
 		64E70ACF2203E2C200F1BA82 /* eventReader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = eventReader.swift; sourceTree = "<group>"; };
 		64E70AD32203EDF600F1BA82 /* athleticsTeamsPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = athleticsTeamsPageViewController.swift; sourceTree = "<group>"; };
 		64EBF8E6226ABA590066516A /* dataFetcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dataFetcher.swift; sourceTree = "<group>"; };
@@ -205,7 +205,7 @@
 				64E70AD32203EDF600F1BA82 /* athleticsTeamsPageViewController.swift */,
 				643EAC9021D34EA300FEBF48 /* athleticsEventPage.xib */,
 				6472402121DC75720090DAB6 /* athleticsEventViewController.swift */,
-				64E70ACE2203E19700F1BA82 /* athleticsEvents.json */,
+				64E70ACE2203E19700F1BA82 /* athleticsEventsBoys.json */,
 				64707B25223DEF990064285B /* athleticsTableViewController.swift */,
 				6457F2F522B48E0100CF36D0 /* athleticsMediaViewController.swift */,
 				6457F2F622B48E0100CF36D0 /* athleticsMediaViewController.xib */,
@@ -342,7 +342,7 @@
 				643EAC8D21D33F5000FEBF48 /* athleticsHomePage.xib in Resources */,
 				64A566D821D087A600276A0E /* LaunchScreen.storyboard in Resources */,
 				64DA4CDF21D8807300302492 /* formalEventsEventPage.xib in Resources */,
-				64E70AD12203E64300F1BA82 /* athleticsEvents.json in Resources */,
+				64E70AD12203E64300F1BA82 /* athleticsEventsBoys.json in Resources */,
 				64DA4CDD21D879CB00302492 /* formalEventsHomePage.xib in Resources */,
 				64DA4CE121D88B8900302492 /* formalEventsEventPage1.xib in Resources */,
 				6457F2F822B48E0100CF36D0 /* athleticsMediaViewController.xib in Resources */,
