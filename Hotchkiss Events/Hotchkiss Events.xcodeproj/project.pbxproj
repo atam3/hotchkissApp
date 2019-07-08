@@ -9,7 +9,8 @@
 /* Begin PBXBuildFile section */
 		6417B9C622D3010D009693D6 /* athleticsEventsGirls.json in Resources */ = {isa = PBXBuildFile; fileRef = 6417B9C522D3010D009693D6 /* athleticsEventsGirls.json */; };
 		6417B9CB22D304C0009693D6 /* athleticsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6417B9C922D304C0009693D6 /* athleticsTableViewController.swift */; };
-		6417B9CC22D304C0009693D6 /* athleticsTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6417B9CA22D304C0009693D6 /* athleticsTableViewController.xib */; };
+		6417B9CC22D304C0009693D6 /* athleticsTableViewControllerB.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6417B9CA22D304C0009693D6 /* athleticsTableViewControllerB.xib */; };
+		6417B9CE22D37735009693D6 /* athleticsTableViewControllerG.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6417B9CD22D37735009693D6 /* athleticsTableViewControllerG.xib */; };
 		643EAC8D21D33F5000FEBF48 /* athleticsHomePage.xib in Resources */ = {isa = PBXBuildFile; fileRef = 643EAC8C21D33F5000FEBF48 /* athleticsHomePage.xib */; };
 		643EAC8F21D3458500FEBF48 /* athleticsTeamsPage.xib in Resources */ = {isa = PBXBuildFile; fileRef = 643EAC8E21D3458500FEBF48 /* athleticsTeamsPage.xib */; };
 		643EAC9121D34EA300FEBF48 /* athleticsEventPage.xib in Resources */ = {isa = PBXBuildFile; fileRef = 643EAC9021D34EA300FEBF48 /* athleticsEventPage.xib */; };
@@ -65,7 +66,8 @@
 /* Begin PBXFileReference section */
 		6417B9C522D3010D009693D6 /* athleticsEventsGirls.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = athleticsEventsGirls.json; sourceTree = "<group>"; };
 		6417B9C922D304C0009693D6 /* athleticsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = athleticsTableViewController.swift; sourceTree = "<group>"; };
-		6417B9CA22D304C0009693D6 /* athleticsTableViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = athleticsTableViewController.xib; sourceTree = "<group>"; };
+		6417B9CA22D304C0009693D6 /* athleticsTableViewControllerB.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = athleticsTableViewControllerB.xib; sourceTree = "<group>"; };
+		6417B9CD22D37735009693D6 /* athleticsTableViewControllerG.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = athleticsTableViewControllerG.xib; sourceTree = "<group>"; };
 		643EAC8C21D33F5000FEBF48 /* athleticsHomePage.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = athleticsHomePage.xib; sourceTree = "<group>"; };
 		643EAC8E21D3458500FEBF48 /* athleticsTeamsPage.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = athleticsTeamsPage.xib; sourceTree = "<group>"; };
 		643EAC9021D34EA300FEBF48 /* athleticsEventPage.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = athleticsEventPage.xib; sourceTree = "<group>"; };
@@ -214,7 +216,8 @@
 				6457F2F522B48E0100CF36D0 /* athleticsMediaViewController.swift */,
 				6457F2F622B48E0100CF36D0 /* athleticsMediaViewController.xib */,
 				6417B9C922D304C0009693D6 /* athleticsTableViewController.swift */,
-				6417B9CA22D304C0009693D6 /* athleticsTableViewController.xib */,
+				6417B9CA22D304C0009693D6 /* athleticsTableViewControllerB.xib */,
+				6417B9CD22D37735009693D6 /* athleticsTableViewControllerG.xib */,
 			);
 			path = athleticsSection;
 			sourceTree = "<group>";
@@ -341,12 +344,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				64F4D9A222CEF4E600E4672E /* formalEventsMediaViewController.xib in Resources */,
+				6417B9CE22D37735009693D6 /* athleticsTableViewControllerG.xib in Resources */,
 				64707B20223B5D060064285B /* formalSchoolEvents.json in Resources */,
 				643EAC9121D34EA300FEBF48 /* athleticsEventPage.xib in Resources */,
 				64A5670021D08DDD00276A0E /* homePage.xib in Resources */,
 				6457F2F222B48BF200CF36D0 /* trails2.jpg in Resources */,
 				643EAC8D21D33F5000FEBF48 /* athleticsHomePage.xib in Resources */,
-				6417B9CC22D304C0009693D6 /* athleticsTableViewController.xib in Resources */,
+				6417B9CC22D304C0009693D6 /* athleticsTableViewControllerB.xib in Resources */,
 				64A566D821D087A600276A0E /* LaunchScreen.storyboard in Resources */,
 				64DA4CDF21D8807300302492 /* formalEventsEventPage.xib in Resources */,
 				64E70AD12203E64300F1BA82 /* athleticsEventsBoys.json in Resources */,
