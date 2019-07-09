@@ -34,7 +34,7 @@ class dataFetcher
         task.resume()
     }
     
-    func fetchFormalSchoolEvents(completion: @escaping ([formalSchoolEvent]) -> ())
+    func fetchFormalSchoolEvents(file: String, completion: @escaping ([formalSchoolEvent]) -> ())
     {
         let url = URL(string: "https://raw.githubusercontent.com/atam3/hotchkissApp/master/Hotchkiss%20Events/Hotchkiss%20Events/formalSchoolEventsSection/formalSchoolEvents.json")
         let request = NSMutableURLRequest(url: url!)
