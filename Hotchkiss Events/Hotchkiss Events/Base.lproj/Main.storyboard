@@ -339,6 +339,9 @@
                                         <state key="normal" title="Speakers and Special Programs">
                                             <color key="titleColor" red="1" green="0.99998801950000005" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         </state>
+                                        <connections>
+                                            <action selector="speakersPressed" destination="gaZ-Ny-trf" eventType="touchUpInside" id="gU2-kC-NSE"/>
+                                        </connections>
                                     </button>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="musicperformance" translatesAutoresizingMaskIntoConstraints="NO" id="g3x-rS-Ik3">
                                         <rect key="frame" x="8" y="345" width="398" height="206"/>
@@ -352,6 +355,9 @@
                                         <state key="normal" title="Performances">
                                             <color key="titleColor" red="1" green="0.99998801950000005" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         </state>
+                                        <connections>
+                                            <action selector="performancesPressed" destination="gaZ-Ny-trf" eventType="touchUpInside" id="L3r-hV-8Mr"/>
+                                        </connections>
                                     </button>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="entertainment" translatesAutoresizingMaskIntoConstraints="NO" id="Vd2-F8-wEC">
                                         <rect key="frame" x="8" y="564" width="398" height="206"/>
@@ -365,6 +371,9 @@
                                         <state key="normal" title="Entertainment">
                                             <color key="titleColor" red="1" green="0.99998801950000005" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         </state>
+                                        <connections>
+                                            <action selector="entertainmentPressed" destination="gaZ-Ny-trf" eventType="touchUpInside" id="l97-hU-Ez0"/>
+                                        </connections>
                                     </button>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="THE HOTCHKISS SCHOOL" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="otM-1E-J9X">
                                         <rect key="frame" x="122" y="0.0" width="288" height="125"/>

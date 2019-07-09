@@ -18,27 +18,29 @@ class formalEventsEventPageViewController: UIViewController
     {
         let x = dataFetcher()
         x.fetchFormalSchoolEvents(file: "schoolEventsSpeakers", completion: { (events) in
-            let y = athleticsTableViewControllerB(nibName: "athleticsTableViewControllerB", bundle: Bundle.main)
+            let y = schoolEventsTableViewControllerSpeakers(nibName: "schoolEventsTableViewControllerSpeakers", bundle: Bundle.main)
             y.events = events
             self.navigationController?.pushViewController(y, animated: true)
         })
     }
     
-    
-    
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?)
+    @IBAction func performancesPressed()
     {
-        let x = eventReader()
-        x.readFormalSchoolEvents(file: "")
-        let event = x.formalSchoolEvents[0]
-        let y = (segue.destination as? formalEventsEvent1ViewController)
-        
-        
-        y?.eventNameLabel?.text = event.eventName
-        y?.descriptionLabel?.text = event.location
-        y?.dressCodeLabel?.text = event.dressCode
-        y?.event = event
-        y?.timeLabel?.text = event.time?.description
-        
+        let x = dataFetcher()
+        x.fetchFormalSchoolEvents(file: "schoolEventsPerformances", completion: { (events) in
+            let y = schoolEventsTableViewControllerPerformances(nibName: "schoolEventsTableViewControllerPerformances", bundle: Bundle.main)
+            y.events = events
+            self.navigationController?.pushViewController(y, animated: true)
+        })
+    }
+    
+    @IBAction func entertainmentPressed()
+    {
+        let x = dataFetcher()
+        x.fetchFormalSchoolEvents(file: "schoolEventsEntertainment", completion: { (events) in
+            let y = schoolEventsTableViewControllerEntertainment(nibName: "schoolEventsTableViewControllerEntertainment", bundle: Bundle.main)
+            y.events = events
+            self.navigationController?.pushViewController(y, animated: true)
+        })
     }
 }
