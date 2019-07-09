@@ -328,51 +328,44 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="speaker" translatesAutoresizingMaskIntoConstraints="NO" id="7sc-aj-Pkl">
-                                        <rect key="frame" x="8" y="123" width="398" height="262"/>
+                                        <rect key="frame" x="8" y="126" width="398" height="206"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     </imageView>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9Gy-Ai-aFm">
-                                        <rect key="frame" x="8" y="123" width="398" height="262"/>
+                                        <rect key="frame" x="8" y="126" width="398" height="206"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <color key="backgroundColor" red="0.088765926659999994" green="0.16401907800000001" blue="0.34511664510000001" alpha="0.84999999999999998" colorSpace="custom" customColorSpace="displayP3"/>
                                         <fontDescription key="fontDescription" name="HoeflerText-Black" family="Hoefler Text" pointSize="20"/>
-                                        <state key="normal" title="Mandatory Events">
+                                        <state key="normal" title="Speakers and Special Programs">
                                             <color key="titleColor" red="1" green="0.99998801950000005" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         </state>
-                                        <connections>
-                                            <segue destination="EXY-m6-GJV" kind="show" id="4iF-Sp-44r"/>
-                                        </connections>
                                     </button>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="musicperformance" translatesAutoresizingMaskIntoConstraints="NO" id="UBC-Pu-53E">
-                                        <rect key="frame" x="8" y="454" width="398" height="262"/>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="musicperformance" translatesAutoresizingMaskIntoConstraints="NO" id="g3x-rS-Ik3">
+                                        <rect key="frame" x="8" y="345" width="398" height="206"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     </imageView>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4Xe-eA-OWQ">
-                                        <rect key="frame" x="8" y="454" width="398" height="262"/>
+                                        <rect key="frame" x="8" y="345" width="398" height="206"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <color key="backgroundColor" red="0.088765926659999994" green="0.16401907800000001" blue="0.34511664510000001" alpha="0.84999999999999998" colorSpace="custom" customColorSpace="displayP3"/>
                                         <fontDescription key="fontDescription" name="HoeflerText-Black" family="Hoefler Text" pointSize="20"/>
-                                        <state key="normal" title="Optional">
+                                        <state key="normal" title="Performances">
                                             <color key="titleColor" red="1" green="0.99998801950000005" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         </state>
-                                        <connections>
-                                            <segue destination="ljD-bj-d0H" kind="show" id="PeN-jT-XKp"/>
-                                        </connections>
                                     </button>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Entertainment Programs, Art Performances, School Trips, etc." lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rFK-zC-w0k">
-                                        <rect key="frame" x="8" y="723" width="398" height="52"/>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="entertainment" translatesAutoresizingMaskIntoConstraints="NO" id="Vd2-F8-wEC">
+                                        <rect key="frame" x="8" y="564" width="398" height="206"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <fontDescription key="fontDescription" name="HoeflerText-Regular" family="Hoefler Text" pointSize="16"/>
-                                        <nil key="textColor"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Invited Speakers, Special Programs, Performances and Graduation." lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vsz-p8-FY7">
-                                        <rect key="frame" x="8" y="394" width="398" height="52"/>
+                                    </imageView>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HHD-WM-bLe">
+                                        <rect key="frame" x="8" y="564" width="398" height="206"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <fontDescription key="fontDescription" name="HoeflerText-Regular" family="Hoefler Text" pointSize="16"/>
-                                        <nil key="textColor"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
+                                        <color key="backgroundColor" red="0.088765926659999994" green="0.16401907800000001" blue="0.34511664510000001" alpha="0.84999999999999998" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <fontDescription key="fontDescription" name="HoeflerText-Black" family="Hoefler Text" pointSize="20"/>
+                                        <state key="normal" title="Entertainment">
+                                            <color key="titleColor" red="1" green="0.99998801950000005" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        </state>
+                                    </button>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="THE HOTCHKISS SCHOOL" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="otM-1E-J9X">
                                         <rect key="frame" x="122" y="0.0" width="288" height="125"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -391,10 +384,15 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="tYv-Mv-GOb"/>
                     </view>
+                    <connections>
+                        <outlet property="entertainmentButton" destination="HHD-WM-bLe" id="IGl-Fy-xm0"/>
+                        <outlet property="performancesButton" destination="4Xe-eA-OWQ" id="ZYT-Dk-LPz"/>
+                        <outlet property="speakersButton" destination="9Gy-Ai-aFm" id="est-se-fCl"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="i86-MR-dmA" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1457" y="617"/>
+            <point key="canvasLocation" x="1456.521739130435" y="616.74107142857144"/>
         </scene>
         <!--Formal Table View Controller-->
         <scene sceneID="XoN-Rq-zzz">
@@ -501,6 +499,7 @@
     </scenes>
     <resources>
         <image name="22-HOTCHKISS" width="743" height="743"/>
+        <image name="entertainment" width="640" height="480"/>
         <image name="fieldhockey" width="1920" height="1275"/>
         <image name="highjump" width="1920" height="1415"/>
         <image name="musicperformance" width="640" height="427"/>

@@ -7,9 +7,10 @@
 //
 
 import UIKit
-class athleticsTableViewController: UIViewController, UITableViewDataSource, UITableViewDelegate
+class athleticsTableViewControllerB: UIViewController, UITableViewDataSource, UITableViewDelegate
 {
-    @IBOutlet weak var tableView: UITableView?
+    @IBOutlet weak var tableViewB: UITableView?
+    
     var events = [athleticsEvent]()
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int
@@ -38,8 +39,8 @@ class athleticsTableViewController: UIViewController, UITableViewDataSource, UIT
     
     override func viewDidLoad()
     {
-        self.tableView?.dataSource = self
-        self.tableView?.delegate = self
+        self.tableViewB?.dataSource = self
+        self.tableViewB?.delegate = self
         
         
         

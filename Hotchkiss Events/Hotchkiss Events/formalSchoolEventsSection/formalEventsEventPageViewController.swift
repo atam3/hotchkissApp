@@ -10,6 +10,22 @@ import UIKit
 class formalEventsEventPageViewController: UIViewController
     
 {
+    @IBOutlet weak var speakersButton: UIButton?
+    @IBOutlet weak var performancesButton: UIButton?
+    @IBOutlet weak var entertainmentButton: UIButton?
+    
+    @IBAction func speakersPressed()
+    {
+        let x = dataFetcher()
+        x.fetchFormalSchoolEvents(file: "schoolEventsSpeakers", completion: { (events) in
+            let y = athleticsTableViewControllerB(nibName: "athleticsTableViewControllerB", bundle: Bundle.main)
+            y.events = events
+            self.navigationController?.pushViewController(y, animated: true)
+        })
+    }
+    
+    
+    
     override func prepare(for segue: UIStoryboardSegue, sender: Any?)
     {
         let x = eventReader()

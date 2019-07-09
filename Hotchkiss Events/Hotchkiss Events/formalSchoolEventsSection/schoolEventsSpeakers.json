@@ -1,6 +1,6 @@
 [
     {
-        "eventName": "testEvent",
+        "eventName": "testEventSpeakers",
         "time": "testTime",
         "location": "testLocation",
         "dressCode": "testDressCode",
