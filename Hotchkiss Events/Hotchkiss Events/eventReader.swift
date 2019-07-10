@@ -20,7 +20,7 @@ class eventReader
         self.athleticsEvents = events
     }
     */
-    
+    /*
     //for formal events
     var formalSchoolEvents = [formalSchoolEvent]()
     func readFormalSchoolEvents (file: String) //creating function to read from file
@@ -31,5 +31,6 @@ class eventReader
         let events = try! decoder.decode([formalSchoolEvent].self, from: data)
         self.formalSchoolEvents = events
     }
+ */
 }
 

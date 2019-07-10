@@ -36,7 +36,7 @@ class dataFetcher
     
     func fetchFormalSchoolEvents(file: String, completion: @escaping ([formalSchoolEvent]) -> ())
     {
-        let url = URL(string: "https://raw.githubusercontent.com/atam3/hotchkissApp/master/Hotchkiss%20Events/Hotchkiss%20Events/formalSchoolEventsSection/formalSchoolEvents.json")
+        let url = URL(string: "https://raw.githubusercontent.com/atam3/hotchkissApp/master/Hotchkiss%20Events/Hotchkiss%20Events/formalSchoolEventsSection/" + file + ".json")
         let request = NSMutableURLRequest(url: url!)
         let task = URLSession.shared.dataTask(with: request as URLRequest)
         {

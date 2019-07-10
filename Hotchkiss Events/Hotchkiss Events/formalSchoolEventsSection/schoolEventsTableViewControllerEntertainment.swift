@@ -37,9 +37,7 @@ class schoolEventsTableViewControllerEntertainment: UIViewController, UITableVie
     
     override func viewDidLoad()
     {
-        let x = eventReader()
-        x.readFormalSchoolEvents(file: "")
-        self.events = x.formalSchoolEvents
+        
         
         tableViewEntertainment?.dataSource = self
         tableViewEntertainment?.delegate = self

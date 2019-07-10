@@ -37,9 +37,7 @@ class schoolEventsTableViewControllerPerformances: UIViewController, UITableView
     
     override func viewDidLoad()
     {
-        let x = eventReader()
-        x.readFormalSchoolEvents(file: "")
-        self.events = x.formalSchoolEvents
+        
         
         tableViewPerformances?.dataSource = self
         tableViewPerformances?.delegate = self

@@ -22,7 +22,6 @@
 		6457F2F822B48E0100CF36D0 /* athleticsMediaViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6457F2F622B48E0100CF36D0 /* athleticsMediaViewController.xib */; };
 		6458BEE421DDC6840083821D /* formalSchoolEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6458BEE321DDC6840083821D /* formalSchoolEvent.swift */; };
 		64707B20223B5D060064285B /* schoolEventsSpeakers.json in Resources */ = {isa = PBXBuildFile; fileRef = 64EE587D22069F5300F27D2A /* schoolEventsSpeakers.json */; };
-		64707B24223DE85B0064285B /* formalTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64707B23223DE85B0064285B /* formalTableViewController.swift */; };
 		6472402221DC75720090DAB6 /* athleticsEventViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6472402121DC75720090DAB6 /* athleticsEventViewController.swift */; };
 		6472402421DC78AB0090DAB6 /* formalEventsEventPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6472402321DC78AB0090DAB6 /* formalEventsEventPageViewController.swift */; };
 		6472402621DC7D8C0090DAB6 /* athleticsEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6472402521DC7D8C0090DAB6 /* athleticsEvent.swift */; };
@@ -87,7 +86,6 @@
 		6457F2F522B48E0100CF36D0 /* athleticsMediaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = athleticsMediaViewController.swift; sourceTree = "<group>"; };
 		6457F2F622B48E0100CF36D0 /* athleticsMediaViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = athleticsMediaViewController.xib; sourceTree = "<group>"; };
 		6458BEE321DDC6840083821D /* formalSchoolEvent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = formalSchoolEvent.swift; sourceTree = "<group>"; };
-		64707B23223DE85B0064285B /* formalTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = formalTableViewController.swift; sourceTree = "<group>"; };
 		6472402121DC75720090DAB6 /* athleticsEventViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = athleticsEventViewController.swift; sourceTree = "<group>"; };
 		6472402321DC78AB0090DAB6 /* formalEventsEventPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = formalEventsEventPageViewController.swift; sourceTree = "<group>"; };
 		6472402521DC7D8C0090DAB6 /* athleticsEvent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = athleticsEvent.swift; sourceTree = "<group>"; };
@@ -255,7 +253,6 @@
 				64DD88B222D477AF003AC4D6 /* schoolEventsEntertainment.json */,
 				64F4D99F22CEF4E600E4672E /* formalEventsMediaViewController.swift */,
 				64F4D9A022CEF4E600E4672E /* formalEventsMediaViewController.xib */,
-				64707B23223DE85B0064285B /* formalTableViewController.swift */,
 				64DD88B422D47827003AC4D6 /* schoolEventsTableViewControllerSpeakers.swift */,
 				64DD88B522D47827003AC4D6 /* schoolEventsTableViewControllerSpeakers.xib */,
 				64DD88B822D4794B003AC4D6 /* schoolEventsTableViewControllerPerformances.swift */,
@@ -423,7 +420,6 @@
 				64F4D9A122CEF4E600E4672E /* formalEventsMediaViewController.swift in Sources */,
 				6457F2F722B48E0100CF36D0 /* athleticsMediaViewController.swift in Sources */,
 				64DD88BE22D479C6003AC4D6 /* schoolEventsTableViewControllerEntertainment.swift in Sources */,
-				64707B24223DE85B0064285B /* formalTableViewController.swift in Sources */,
 				6472402421DC78AB0090DAB6 /* formalEventsEventPageViewController.swift in Sources */,
 				6472402621DC7D8C0090DAB6 /* athleticsEvent.swift in Sources */,
 				64EE58802206A14B00F27D2A /* formalEventsEvent1ViewController.swift in Sources */,

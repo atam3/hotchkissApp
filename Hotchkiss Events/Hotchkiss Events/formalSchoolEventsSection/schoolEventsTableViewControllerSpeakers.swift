@@ -37,9 +37,6 @@ class schoolEventsTableViewControllerSpeakers: UIViewController, UITableViewData
     
     override func viewDidLoad()
     {
-        let x = eventReader()
-        x.readFormalSchoolEvents(file: "")
-        self.events = x.formalSchoolEvents
         
         tableViewSpeakers?.dataSource = self
         tableViewSpeakers?.delegate = self
