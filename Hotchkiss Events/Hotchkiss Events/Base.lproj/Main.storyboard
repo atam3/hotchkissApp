@@ -143,7 +143,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="M01-wc-6Pd" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1457" y="-552"/>
+            <point key="canvasLocation" x="1441" y="-554"/>
         </scene>
         <!--Athletics Table View Controller-->
         <scene sceneID="Yum-dF-dBA">
@@ -274,18 +274,6 @@
                                         <rect key="frame" x="8" y="125" width="398" height="310"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     </imageView>
-                                    <button contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Gqa-H9-Bli">
-                                        <rect key="frame" x="8" y="125" width="398" height="310"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <color key="backgroundColor" red="0.088765926659999994" green="0.16401907800000001" blue="0.34511664510000001" alpha="0.85103983274647887" colorSpace="custom" customColorSpace="displayP3"/>
-                                        <fontDescription key="fontDescription" name="HoeflerText-Black" family="Hoefler Text" pointSize="20"/>
-                                        <state key="normal" title="Athletics">
-                                            <color key="titleColor" red="1" green="0.99998801950000005" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                        </state>
-                                        <connections>
-                                            <segue destination="LKG-fc-mAO" kind="show" id="wKa-Wa-6dA"/>
-                                        </connections>
-                                    </button>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="stringio" translatesAutoresizingMaskIntoConstraints="NO" id="aOl-7d-I8S">
                                         <rect key="frame" x="8" y="445" width="398" height="310"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -302,6 +290,18 @@
                                             <segue destination="gaZ-Ny-trf" kind="show" id="kvQ-4H-X3X"/>
                                         </connections>
                                     </button>
+                                    <button contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Gqa-H9-Bli">
+                                        <rect key="frame" x="8" y="125" width="398" height="310"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="backgroundColor" red="0.088765926659999994" green="0.16401907800000001" blue="0.34511664510000001" alpha="0.85103983274647887" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <fontDescription key="fontDescription" name="HoeflerText-Black" family="Hoefler Text" pointSize="20"/>
+                                        <state key="normal" title="Athletics">
+                                            <color key="titleColor" red="1" green="0.99998801950000005" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        </state>
+                                        <connections>
+                                            <segue destination="LKG-fc-mAO" kind="show" id="wKa-Wa-6dA"/>
+                                        </connections>
+                                    </button>
                                 </subviews>
                                 <color key="backgroundColor" red="0.81624442340000003" green="0.83469653129999999" blue="0.87059408429999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                             </view>
@@ -310,6 +310,14 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <navigationItem key="navigationItem" id="W2J-Ua-JXf"/>
+                    <connections>
+                        <outlet property="athleticsButton" destination="Gqa-H9-Bli" id="49Z-dW-gU9"/>
+                        <outlet property="athleticsImage" destination="Rrg-iI-q5v" id="Ap6-t6-6mz"/>
+                        <outlet property="formalSchoolEventsButton" destination="Ckm-vb-IyL" id="eNg-OL-RLo"/>
+                        <outlet property="formalSchoolEventsImage" destination="aOl-7d-I8S" id="oGU-Co-pBp"/>
+                        <outlet property="logo" destination="2wP-XH-DF7" id="kpd-hH-zHt"/>
+                        <outlet property="name" destination="2QX-z1-kfg" id="kEq-F9-biy"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
