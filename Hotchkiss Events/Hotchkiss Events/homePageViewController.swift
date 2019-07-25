@@ -39,8 +39,8 @@ class homePageViewController:UIViewController
     
     override func viewDidAppear(_ animated: Bool)
     {
-        athleticsButton?.backgroundColor = UIColor.init(displayP3Red: 238.0/255, green: 245.0/255, blue: 254.0/255, alpha: 1.0)
-    formalSchoolEventsButton?.backgroundColor = UIColor.init(displayP3Red: 238.0/255, green: 245.0/255, blue: 254.0/255, alpha: 1.0)
+        athleticsButton?.backgroundColor = UIColor.init(displayP3Red: 0.0/255, green: 0.0/255, blue: 1.0/255, alpha: 0.85)
+        formalSchoolEventsButton?.backgroundColor = UIColor.init(displayP3Red: 0.0/255, green: 0.0/255, blue: 1.0/255, alpha: 0.85)
        
         
         athleticsButton?.addTarget(self, action: #selector(athleticsButtonTap), for: .touchUpInside)

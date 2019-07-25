@@ -138,7 +138,13 @@
                     </view>
                     <connections>
                         <outlet property="boysButton" destination="dIc-kC-MVz" id="WVX-We-u8Z"/>
+                        <outlet property="boysImage" destination="M0l-WT-O3K" id="M6o-D9-vMi"/>
+                        <outlet property="boysLabel" destination="cFo-dC-kQk" id="dQS-QE-Uy5"/>
                         <outlet property="girlsButton" destination="U7M-HD-S0b" id="fN9-nN-71Z"/>
+                        <outlet property="girlsImage" destination="ixP-lb-4HL" id="HBU-o8-8o8"/>
+                        <outlet property="girlsLabel" destination="PNO-if-tTQ" id="mYd-RJ-gmP"/>
+                        <outlet property="logo" destination="DpN-e5-yPO" id="nOC-Uf-OLL"/>
+                        <outlet property="name" destination="LX0-2P-Z7a" id="xw9-pt-hGo"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="M01-wc-6Pd" userLabel="First Responder" sceneMemberID="firstResponder"/>
