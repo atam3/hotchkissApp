@@ -19,8 +19,11 @@ class athleticsTeamsPageViewController: UIViewController
     @IBOutlet weak var girlsLabel: UILabel?
     @IBOutlet weak var girlsImage: UIImageView?
     
-    override func viewWillLayoutSubviews()
+    override func viewDidLayoutSubviews()
     {
+        //let view = logo!.superview!
+        //view.frame = self.view.bounds.insetBy(self.view.safeAreaInsets)
+        
         let bounds = view.bounds
         
         let logoSides = bounds.size.width * 0.3
@@ -29,19 +32,20 @@ class athleticsTeamsPageViewController: UIViewController
         name?.frame = CGRect(x: logo!.frame.maxX, y: 0, width: bounds.size.width - logoSides - 4, height: logoSides)
         name?.adjustsFontSizeToFitWidth = true
         
-        let buttonWidth = bounds.size.width - 16
-        let buttonHeight = bounds.size.height * 0.324
-        boysButton?.frame = CGRect(x: 8, y: logo!.frame.maxY, width: buttonWidth, height: buttonHeight)
-        girlsButton?.frame = CGRect(x: 8, y: boysLabel!.frame.maxY, width: buttonWidth, height: buttonHeight)
-        //for some reason i made it maxY of the boys label, but it is so far below the boys label??
-        boysImage?.frame = CGRect(x: 8, y: logo!.frame.maxY, width: buttonWidth, height: buttonHeight)
-        girlsImage?.frame = CGRect(x: 8, y: boysLabel!.frame.maxY, width: buttonWidth, height: buttonHeight)
-        //for some reason i made it maxY of the boys label, but it is so far below the boys label??
-        
         let labelWidth = bounds.size.width - 16
-        let labelHeight = bounds.size.height * 0.064
-        boysLabel?.frame = CGRect(x: 8, y: boysButton!.frame.maxY + 6, width: labelWidth, height: labelHeight)
-        girlsLabel?.frame = CGRect(x: 8, y: girlsButton!.frame.maxY + 6, width: labelWidth, height: labelHeight)
+        let labelHeight = bounds.size.height * 0.06
+        
+        let buttonWidth = bounds.size.width - 16
+        let buttonHeight = bounds.size.height * 0.315
+        boysButton?.frame = CGRect(x: 8, y: logo!.frame.maxY, width: buttonWidth, height: buttonHeight)
+        boysImage?.frame = CGRect(x: 8, y: logo!.frame.maxY, width: buttonWidth, height: buttonHeight)
+        boysLabel?.frame = CGRect(x: 8, y: boysButton!.frame.maxY, width: labelWidth, height: labelHeight)
+        
+        girlsButton?.frame = CGRect(x: 8, y: boysLabel!.frame.maxY + 1, width: buttonWidth, height: buttonHeight)
+        girlsImage?.frame = CGRect(x: 8, y: boysLabel!.frame.maxY + 1, width: buttonWidth, height: buttonHeight)
+        girlsLabel?.frame = CGRect(x: 8, y: girlsButton!.frame.maxY, width: labelWidth, height: labelHeight)
+        
+      
     }
     
     @IBAction func boysPressed()

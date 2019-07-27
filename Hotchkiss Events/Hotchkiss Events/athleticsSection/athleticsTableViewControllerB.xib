@@ -12,6 +12,9 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="athleticsTableViewControllerB" customModule="Hotchkiss_Events" customModuleProvider="target">
             <connections>
+                <outlet property="boysLabel" destination="IQz-gC-KJz" id="DR8-FE-BHy"/>
+                <outlet property="logo" destination="pOK-0y-VQI" id="48V-y8-sKu"/>
+                <outlet property="name" destination="1Ei-rw-q9S" id="9lQ-aP-0OR"/>
                 <outlet property="tableViewB" destination="Unj-Fy-gCh" id="lMz-cd-N4Q"/>
                 <outlet property="view" destination="h3G-sv-AjH" id="JCJ-w3-Ng5"/>
             </connections>

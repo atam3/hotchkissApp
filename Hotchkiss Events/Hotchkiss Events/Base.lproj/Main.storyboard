@@ -409,8 +409,13 @@
                     </view>
                     <connections>
                         <outlet property="entertainmentButton" destination="HHD-WM-bLe" id="IGl-Fy-xm0"/>
+                        <outlet property="entertainmentImage" destination="Vd2-F8-wEC" id="g4m-yP-lAw"/>
+                        <outlet property="logo" destination="Vrl-Zp-bMr" id="34D-nb-jyA"/>
+                        <outlet property="name" destination="otM-1E-J9X" id="eLB-33-GiW"/>
                         <outlet property="performancesButton" destination="4Xe-eA-OWQ" id="ZYT-Dk-LPz"/>
+                        <outlet property="performancesImage" destination="g3x-rS-Ik3" id="XhV-CT-VYQ"/>
                         <outlet property="speakersButton" destination="9Gy-Ai-aFm" id="est-se-fCl"/>
+                        <outlet property="speakersImage" destination="7sc-aj-Pkl" id="hf2-yH-K1M"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="i86-MR-dmA" userLabel="First Responder" sceneMemberID="firstResponder"/>

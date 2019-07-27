@@ -10,9 +10,39 @@ import UIKit
 class formalEventsEventPageViewController: UIViewController
     
 {
+    @IBOutlet weak var logo: UIImageView?
+    @IBOutlet weak var name: UILabel?
     @IBOutlet weak var speakersButton: UIButton?
+    @IBOutlet weak var speakersImage: UIImageView?
     @IBOutlet weak var performancesButton: UIButton?
+    @IBOutlet weak var performancesImage: UIImageView?
     @IBOutlet weak var entertainmentButton: UIButton?
+    @IBOutlet weak var entertainmentImage: UIImageView?
+    
+    override func viewDidLayoutSubviews()
+    {
+        //let view = logo!.superview!
+        //view.frame = self.view.bounds.insetBy(self.view.safeAreaInsets)
+        
+        let bounds = view.bounds
+        
+        let logoSides = bounds.size.width * 0.3
+        logo?.frame = CGRect(x: 0, y: 0, width: logoSides, height: logoSides)
+        
+        name?.frame = CGRect(x: logo!.frame.maxX, y: 0, width: bounds.size.width - logoSides - 4, height: logoSides)
+        name?.adjustsFontSizeToFitWidth = true
+        
+        let buttonWidth = bounds.size.width - 16
+        let buttonHeight = bounds.size.height * 0.235
+        speakersButton?.frame = CGRect(x: 8, y: logo!.frame.maxY, width: buttonWidth, height: buttonHeight)
+        speakersImage?.frame = CGRect(x: 8, y: logo!.frame.maxY, width: buttonWidth, height: buttonHeight)
+        
+        performancesButton?.frame = CGRect(x: 8, y: speakersButton!.frame.maxY + 9, width: buttonWidth, height: buttonHeight)
+        performancesImage?.frame = CGRect(x: 8, y: speakersButton!.frame.maxY + 9, width: buttonWidth, height: buttonHeight)
+        
+        entertainmentButton?.frame = CGRect(x: 8, y: performancesButton!.frame.maxY + 9, width: buttonWidth, height: buttonHeight)
+        entertainmentImage?.frame = CGRect(x: 8, y: performancesButton!.frame.maxY + 9, width: buttonWidth, height: buttonHeight)
+    }
     
     @IBAction func speakersPressed()
     {

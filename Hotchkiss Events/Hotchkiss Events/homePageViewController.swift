@@ -16,8 +16,11 @@ class homePageViewController:UIViewController
     @IBOutlet weak var formalSchoolEventsButton: UIButton?
     @IBOutlet weak var formalSchoolEventsImage: UIImageView?
     
-    override func viewWillLayoutSubviews()
+    override func viewDidLayoutSubviews()
     {
+        //let view = logo!.superview!
+        //view.frame = self.view.bounds.insetBy(self.view.safeAreaInsets)
+    
         let bounds = view.bounds
         
         let logoSides = bounds.size.width * 0.3
@@ -27,20 +30,20 @@ class homePageViewController:UIViewController
         name?.adjustsFontSizeToFitWidth = true
         
         let buttonWidth = bounds.size.width - 16
-        let buttonHeight = bounds.size.height * 0.38
+        let buttonHeight = bounds.size.height * 0.36
         athleticsButton?.frame = CGRect(x: 8, y: logo!.frame.maxY, width: buttonWidth, height: buttonHeight)
         
         athleticsImage?.frame = CGRect(x: 8, y: logo!.frame.maxY, width: buttonWidth, height: buttonHeight)
         
-        formalSchoolEventsButton?.frame = CGRect(x: 8, y: athleticsButton!.frame.maxY + 10, width: buttonWidth, height: buttonHeight)
+        formalSchoolEventsButton?.frame = CGRect(x: 8, y: athleticsButton!.frame.maxY + 8, width: buttonWidth, height: buttonHeight)
         
-        formalSchoolEventsImage?.frame = CGRect(x: 8, y: athleticsButton!.frame.maxY + 10, width: buttonWidth, height: buttonHeight)
+        formalSchoolEventsImage?.frame = CGRect(x: 8, y: athleticsButton!.frame.maxY + 8, width: buttonWidth, height: buttonHeight)
     }
     
     override func viewDidAppear(_ animated: Bool)
     {
-        athleticsButton?.backgroundColor = UIColor.init(displayP3Red: 0.0/255, green: 0.0/255, blue: 1.0/255, alpha: 0.85)
-        formalSchoolEventsButton?.backgroundColor = UIColor.init(displayP3Red: 0.0/255, green: 0.0/255, blue: 1.0/255, alpha: 0.85)
+        //athleticsButton?.backgroundColor = UIColor.init(displayP3Red: 0.0/255, green: 0.0/255, blue: 1.0/255, alpha: 0.85)
+        //formalSchoolEventsButton?.backgroundColor = UIColor.init(displayP3Red: 0.0/255, green: 0.0/255, blue: 1.0/255, alpha: 0.85)
        
         
         athleticsButton?.addTarget(self, action: #selector(athleticsButtonTap), for: .touchUpInside)
