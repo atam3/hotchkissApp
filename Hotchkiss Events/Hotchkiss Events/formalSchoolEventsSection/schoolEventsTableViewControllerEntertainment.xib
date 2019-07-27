@@ -12,6 +12,9 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="schoolEventsTableViewControllerEntertainment" customModule="Hotchkiss_Events" customModuleProvider="target">
             <connections>
+                <outlet property="entertainmentLabel" destination="uSu-Wf-3Aj" id="6w4-R0-KAn"/>
+                <outlet property="logo" destination="ZT6-tU-Dtt" id="f0i-0u-U1B"/>
+                <outlet property="name" destination="oBc-WH-vZu" id="DfV-Cr-AWs"/>
                 <outlet property="tableViewEntertainment" destination="7TK-4o-rKY" id="aQT-yq-2gN"/>
                 <outlet property="view" destination="7si-PR-4nc" id="DpP-Ml-fHn"/>
             </connections>

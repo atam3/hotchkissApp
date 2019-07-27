@@ -12,6 +12,9 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="schoolEventsTableViewControllerSpeakers" customModule="Hotchkiss_Events" customModuleProvider="target">
             <connections>
+                <outlet property="logo" destination="tBq-59-nu4" id="tCF-VM-NrX"/>
+                <outlet property="name" destination="OxR-n3-uOa" id="R3P-9b-ZfB"/>
+                <outlet property="speakersLabel" destination="FX9-EP-3u1" id="tT2-Gu-hw1"/>
                 <outlet property="tableViewSpeakers" destination="uKB-Ch-Rlm" id="QCs-y5-ZdQ"/>
                 <outlet property="view" destination="8c7-Fd-hlp" id="olz-YR-Lt0"/>
             </connections>
