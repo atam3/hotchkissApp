@@ -13,11 +13,17 @@
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="athleticsEventViewController" customModule="Hotchkiss_Events" customModuleProvider="target">
             <connections>
                 <outlet property="locationLabel" destination="Ymf-eR-Pfc" id="Jf4-3o-Qwk"/>
+                <outlet property="locationTab" destination="n1A-Nv-J8c" id="fFv-Dz-DuO"/>
+                <outlet property="logo" destination="kVN-yM-d8a" id="giu-aN-aw6"/>
                 <outlet property="mediaButton" destination="3iF-kP-xRY" id="ue0-rc-NGu"/>
+                <outlet property="name" destination="vOC-2o-dpC" id="klL-Hg-siB"/>
                 <outlet property="opponentLabel" destination="Yff-mD-W2g" id="k2M-h5-V8E"/>
+                <outlet property="opponentTab" destination="fHe-MQ-t1B" id="0J5-Du-Jk3"/>
                 <outlet property="rosterLabel" destination="beX-lX-45m" id="DJv-xC-OMr"/>
+                <outlet property="rosterTab" destination="rb1-0s-uCr" id="9b9-M9-rMC"/>
                 <outlet property="teamNameLabel" destination="XpG-32-da1" id="hnG-M6-kQ7"/>
                 <outlet property="timeLabel" destination="mim-6Z-9le" id="UHT-5s-R6E"/>
+                <outlet property="timeTab" destination="P3J-Bf-Pjt" id="UX4-aE-T5e"/>
                 <outlet property="view" destination="JUe-mx-AhS" id="lQG-EM-1NI"/>
             </connections>
         </placeholder>
@@ -93,10 +99,6 @@
                             <nil key="textColor"/>
                             <nil key="highlightedColor"/>
                         </label>
-                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="6HX-Wj-cMd">
-                            <rect key="frame" x="20" y="156" width="374" height="191"/>
-                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                        </imageView>
                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="&lt;teamName&gt;" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XpG-32-da1">
                             <rect key="frame" x="43" y="115" width="328" height="39"/>
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -105,7 +107,7 @@
                             <nil key="highlightedColor"/>
                         </label>
                         <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3iF-kP-xRY">
-                            <rect key="frame" x="21" y="156" width="373" height="191"/>
+                            <rect key="frame" x="21" y="160" width="373" height="191"/>
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             <fontDescription key="fontDescription" name="HoeflerText-Black" family="Hoefler Text" pointSize="18"/>
                             <state key="normal" title="Media">
