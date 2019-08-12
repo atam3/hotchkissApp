@@ -16,8 +16,10 @@ class schoolEventsTableViewControllerPerformances: UIViewController, UITableView
     
     override func viewDidLayoutSubviews()
     {
-        //let view = logo!.superview!
-        //view.frame = self.view.bounds.insetBy(self.view.safeAreaInsets)
+        let view = logo!.superview!
+        var insets = self.view.safeAreaInsets
+        insets.bottom = 0
+        view.frame = self.view.bounds.inset(by: insets)
         
         let bounds = view.bounds
         
@@ -27,12 +29,14 @@ class schoolEventsTableViewControllerPerformances: UIViewController, UITableView
         name?.frame = CGRect(x: logo!.frame.maxX, y: 0, width: bounds.size.width - logoSides - 4, height: logoSides)
         name?.adjustsFontSizeToFitWidth = true
         
+        let remainingHeight = bounds.size.height - logo!.frame.size.height
+        
         let labelWidth = bounds.size.width - 41
-        let labelHeight = bounds.size.height * 0.045
+        let labelHeight = remainingHeight * 0.054
         performancesLabel?.frame = CGRect(x: 21, y: logo!.frame.maxY + 2, width: labelWidth, height: labelHeight)
         
         let tableViewWidth = labelWidth
-        let tableViewHeight = bounds.size.height * 0.68
+        let tableViewHeight = remainingHeight * 0.882
         tableViewPerformances?.frame = CGRect(x: 21, y: performancesLabel!.frame.maxY + 8, width: tableViewWidth, height: tableViewHeight)
         
     }

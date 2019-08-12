@@ -21,10 +21,13 @@ class athleticsTeamsPageViewController: UIViewController
     
     override func viewDidLayoutSubviews()
     {
-        //let view = logo!.superview!
-        //view.frame = self.view.bounds.insetBy(self.view.safeAreaInsets)
+        let view = logo!.superview!
+        var insets = self.view.safeAreaInsets
+        insets.bottom = 0
+        view.frame = self.view.bounds.inset(by: insets)
         
         let bounds = view.bounds
+        
         
         let logoSides = bounds.size.width * 0.3
         logo?.frame = CGRect(x: 0, y: 0, width: logoSides, height: logoSides)
@@ -32,18 +35,21 @@ class athleticsTeamsPageViewController: UIViewController
         name?.frame = CGRect(x: logo!.frame.maxX, y: 0, width: bounds.size.width - logoSides - 4, height: logoSides)
         name?.adjustsFontSizeToFitWidth = true
         
+        let remainingHeight = bounds.size.height - logo!.frame.size.height
+        
         let labelWidth = bounds.size.width - 16
-        let labelHeight = bounds.size.height * 0.06
+        let labelHeight = remainingHeight * 0.076
         
         let buttonWidth = bounds.size.width - 16
-        let buttonHeight = bounds.size.height * 0.315
+        let buttonHeight = remainingHeight * 0.4
+        
         boysButton?.frame = CGRect(x: 8, y: logo!.frame.maxY, width: buttonWidth, height: buttonHeight)
         boysImage?.frame = CGRect(x: 8, y: logo!.frame.maxY, width: buttonWidth, height: buttonHeight)
-        boysLabel?.frame = CGRect(x: 8, y: boysButton!.frame.maxY, width: labelWidth, height: labelHeight)
+        boysLabel?.frame = CGRect(x: 8, y: boysButton!.frame.maxY + 1, width: labelWidth, height: labelHeight)
         
         girlsButton?.frame = CGRect(x: 8, y: boysLabel!.frame.maxY + 1, width: buttonWidth, height: buttonHeight)
         girlsImage?.frame = CGRect(x: 8, y: boysLabel!.frame.maxY + 1, width: buttonWidth, height: buttonHeight)
-        girlsLabel?.frame = CGRect(x: 8, y: girlsButton!.frame.maxY, width: labelWidth, height: labelHeight)
+        girlsLabel?.frame = CGRect(x: 8, y: girlsButton!.frame.maxY + 1, width: labelWidth, height: labelHeight)
         
       
     }

@@ -46,6 +46,13 @@
                                 <color key="textColor" red="0.088765926659999994" green="0.16401907800000001" blue="0.34511664510000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="For all your Athletic and Event Based Needs" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4dw-oX-aCV">
+                                <rect key="frame" x="0.0" y="333" width="414" height="306"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="HoeflerText-Regular" family="Hoefler Text" pointSize="20"/>
+                                <color key="textColor" red="0.088765926659999994" green="0.16401907800000001" blue="0.34511664510000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="Zx1-ba-8zF"/>
@@ -53,6 +60,7 @@
                     <navigationItem key="navigationItem" id="7tk-F2-MHx"/>
                     <connections>
                         <outlet property="titleObject" destination="go6-FZ-Kq0" id="Pf5-cR-AGX"/>
+                        <outlet property="titleObject2" destination="4dw-oX-aCV" id="6eF-WG-BYe"/>
                         <segue destination="BYZ-38-t0r" kind="show" identifier="titlePageSegue" id="utg-Pb-R56"/>
                     </connections>
                 </viewController>

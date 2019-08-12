@@ -8,9 +8,12 @@
 
 import UIKit
 
-class titlePageViewController: UIViewController {
+class titlePageViewController: UIViewController
+{
 
     @IBOutlet weak var titleObject: UIView!
+    @IBOutlet weak var titleObject2: UIView!
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -19,12 +22,14 @@ class titlePageViewController: UIViewController {
     }
     override func viewWillAppear(_ animated: Bool) {
         titleObject.center.y -= 300
-        //titleObject.alpha = 0
+        titleObject2.center.y -= 300
         
     }
     override func viewDidAppear(_ animated: Bool) {
         UIView.animate(withDuration: 2.0, animations: {
             self.titleObject.center.y += 300
+            self.titleObject2.center.y += 300
+            
              //self.titleObject.alpha = 1
         }, completion: { (_) in
             DispatchQueue.main.asyncAfter(deadline: .now() + .seconds(2)) {

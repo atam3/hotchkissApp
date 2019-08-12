@@ -15,6 +15,8 @@
                 <outlet property="collectionView" destination="GGM-G7-Nzn" id="kT6-jS-aH5"/>
                 <outlet property="collectionViewLayout" destination="0xv-Nt-5sf" id="5cV-6k-K3v"/>
                 <outlet property="eventName" destination="sQI-zx-4z3" id="SAc-nP-ccO"/>
+                <outlet property="logo" destination="AGX-KV-c4L" id="Mdu-rm-Qvy"/>
+                <outlet property="name" destination="w1R-hc-D81" id="V5o-kW-Y3N"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
         </placeholder>
@@ -46,7 +48,7 @@
                             <nil key="highlightedColor"/>
                         </label>
                         <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" dataMode="none" translatesAutoresizingMaskIntoConstraints="NO" id="GGM-G7-Nzn">
-                            <rect key="frame" x="8" y="145" width="398" height="635"/>
+                            <rect key="frame" x="26" y="145" width="361" height="635"/>
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="0xv-Nt-5sf">

@@ -24,8 +24,10 @@ class athleticsEventViewController: UIViewController
     
     override func viewDidLayoutSubviews()
     {
-        //let view = logo!.superview!
-        //view.frame = self.view.bounds.insetBy(self.view.safeAreaInsets)
+        let view = logo!.superview!
+        var insets = self.view.safeAreaInsets
+        insets.bottom = 0
+        view.frame = self.view.bounds.inset(by: insets)
         
         let bounds = view.bounds
         
