@@ -13,11 +13,18 @@
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="formalEventsEvent1ViewController" customModule="Hotchkiss_Events" customModuleProvider="target">
             <connections>
                 <outlet property="descriptionLabel" destination="ws1-OV-zyl" id="lc0-HM-UXZ"/>
+                <outlet property="descriptionTab" destination="vL3-8f-E77" id="nOp-7J-1jw"/>
                 <outlet property="dressCodeLabel" destination="pCY-6n-mYC" id="0pi-Qo-cu3"/>
+                <outlet property="dressCodeTab" destination="3ly-hT-JVP" id="j4n-Lc-vWK"/>
                 <outlet property="eventNameLabel" destination="FRh-7C-hAw" id="5sc-xv-wrb"/>
+                <outlet property="eventNameTab" destination="FRh-7C-hAw" id="HuK-2y-j81"/>
                 <outlet property="locationLabel" destination="wxc-FG-vYA" id="TXV-wt-KNn"/>
+                <outlet property="locationTab" destination="VlA-AP-rPc" id="hy0-SR-aVq"/>
+                <outlet property="logo" destination="8tE-Ui-Rwq" id="kOj-YU-tZs"/>
                 <outlet property="mediaButton" destination="r4i-mK-45F" id="6Rs-wa-aQd"/>
+                <outlet property="name" destination="OUY-ZM-P4N" id="MWi-Qe-9ag"/>
                 <outlet property="timeLabel" destination="fFq-dh-oKm" id="6wB-IY-3VC"/>
+                <outlet property="timeTab" destination="NUc-EC-KQH" id="82R-MO-Vmf"/>
                 <outlet property="view" destination="5vJ-No-NFe" id="9tY-QF-W17"/>
             </connections>
         </placeholder>
