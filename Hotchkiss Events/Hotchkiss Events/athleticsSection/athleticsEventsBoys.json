@@ -3,15 +3,15 @@
         "teamName": "Boys Varsity Basketball",
         "opponent": "The Taft School",
         "location": "Mars Jr. Athletic Center (MAC), Fowle Gym",
-        "time": "September 21st, 2019 at 3:00 pm",
+        "time": "December 11th, 2019 at 3:00 pm",
         "roster": ["Aidan Rogers", "Miles Brewster", "Jed Thomas", "Xavier Wilson", "Max Sussman", "John Coffy", "Kyle Jenkins", "Chukwudubem Anwunah", "Max Grossman", "Nico Ptersik", "Elijah Stone", "Tommy Lewis", "Silvester Palyogi"],
     },
     
     {
-        "teamName": "testTeam2",
-        "opponent": "testOpponent2",
-        "location": "testLocation2",
-        "time": "testTime2",
-        "roster": ["a2", "b2", "c2", "d2"],
-    }
+        "teamName": "Boys Thirds Soccer",
+        "opponent": "Salisbury School",
+        "location": "Taylor Field",
+        "time": "September 21st, 2019 at 4:30 pm",
+        "roster": ["Jeb Bechtel", "Max Beckwith", "Jacob Chui", "Ben Do", "Alex Du", "Manuel Fernandes", "Will Finch", "Luke Gardiner (captain)", "Beckett Hornik", "Eric Jin", "Jack Londono", "Rogan Mason", "Jack McGlinn", "Lachlan Penfold", "Brendon Stallaert", "Alec Stern", "Sachin Umashankar", "Chase Vermeulen", "David Vyhnal", "Alex Wainwright"],
+    },
 ]

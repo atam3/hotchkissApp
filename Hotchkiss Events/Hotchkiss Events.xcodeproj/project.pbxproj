@@ -33,6 +33,7 @@
 		64A566E321D087A600276A0E /* Hotchkiss_EventsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64A566E221D087A600276A0E /* Hotchkiss_EventsTests.swift */; };
 		64A566EE21D087A600276A0E /* Hotchkiss_EventsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64A566ED21D087A600276A0E /* Hotchkiss_EventsUITests.swift */; };
 		64A5670021D08DDD00276A0E /* homePage.xib in Resources */ = {isa = PBXBuildFile; fileRef = 64A566FF21D08DDD00276A0E /* homePage.xib */; };
+		64CE87812301B5CE0015AC24 /* Members and Leadership Positions in Resources */ = {isa = PBXBuildFile; fileRef = 64CE87802301B5CE0015AC24 /* Members and Leadership Positions */; };
 		64DA4CDD21D879CB00302492 /* formalEventsHomePage.xib in Resources */ = {isa = PBXBuildFile; fileRef = 64DA4CDC21D879CB00302492 /* formalEventsHomePage.xib */; };
 		64DA4CDF21D8807300302492 /* formalEventsEventPage.xib in Resources */ = {isa = PBXBuildFile; fileRef = 64DA4CDE21D8807300302492 /* formalEventsEventPage.xib */; };
 		64DA4CE121D88B8900302492 /* formalEventsEventPage1.xib in Resources */ = {isa = PBXBuildFile; fileRef = 64DA4CE021D88B8900302492 /* formalEventsEventPage1.xib */; };
@@ -103,6 +104,7 @@
 		64A566ED21D087A600276A0E /* Hotchkiss_EventsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hotchkiss_EventsUITests.swift; sourceTree = "<group>"; };
 		64A566EF21D087A600276A0E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		64A566FF21D08DDD00276A0E /* homePage.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = homePage.xib; sourceTree = "<group>"; };
+		64CE87802301B5CE0015AC24 /* Members and Leadership Positions */ = {isa = PBXFileReference; lastKnownFileType = text; path = "Members and Leadership Positions"; sourceTree = "<group>"; };
 		64DA4CDC21D879CB00302492 /* formalEventsHomePage.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = formalEventsHomePage.xib; sourceTree = "<group>"; };
 		64DA4CDE21D8807300302492 /* formalEventsEventPage.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = formalEventsEventPage.xib; sourceTree = "<group>"; };
 		64DA4CE021D88B8900302492 /* formalEventsEventPage1.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = formalEventsEventPage1.xib; sourceTree = "<group>"; };
@@ -196,6 +198,7 @@
 				64E70ACF2203E2C200F1BA82 /* eventReader.swift */,
 				6457F2F322B48C1400CF36D0 /* imageReader.swift */,
 				64EBF8E6226ABA590066516A /* dataFetcher.swift */,
+				64CE87802301B5CE0015AC24 /* Members and Leadership Positions */,
 			);
 			path = "Hotchkiss Events";
 			sourceTree = "<group>";
@@ -389,6 +392,7 @@
 				64DD88B122D47799003AC4D6 /* schoolEventsPerformances.json in Resources */,
 				64A566D521D087A600276A0E /* Assets.xcassets in Resources */,
 				643EAC8F21D3458500FEBF48 /* athleticsTeamsPage.xib in Resources */,
+				64CE87812301B5CE0015AC24 /* Members and Leadership Positions in Resources */,
 				64A566D321D087A500276A0E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -523,6 +527,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = QZB3LRJUBB;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
@@ -584,8 +589,10 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = QZB3LRJUBB;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -597,6 +604,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";

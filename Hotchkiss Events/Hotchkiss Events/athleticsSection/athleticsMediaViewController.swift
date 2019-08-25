@@ -35,7 +35,7 @@ class athleticsMediaViewController: UIViewController, UICollectionViewDataSource
         let teamNameHeight = bounds.size.height * 0.04
         teamName?.frame = CGRect(x: 43, y: name!.frame.maxY - 3, width: teamNameWidth, height: teamNameHeight)
         
-        let collectionViewWidth = bounds.size.width * 0.87
+        let collectionViewWidth = bounds.size.width * 0.865
         let collectionViewHeight = bounds.size.height * 0.76
         collectionView?.frame = CGRect(x: 26, y: teamName!.frame.maxY + 8, width: collectionViewWidth, height: collectionViewHeight)
     }
