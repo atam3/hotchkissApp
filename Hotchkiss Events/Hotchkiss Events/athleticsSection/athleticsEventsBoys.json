@@ -10,8 +10,16 @@
     {
         "teamName": "Boys Thirds Soccer",
         "opponent": "Salisbury School",
-        "location": "Taylor Field",
+        "location": "'49 Fields",
         "time": "September 21st, 2019 at 4:30 pm",
         "roster": ["Jeb Bechtel", "Max Beckwith", "Jacob Chui", "Ben Do", "Alex Du", "Manuel Fernandes", "Will Finch", "Luke Gardiner (captain)", "Beckett Hornik", "Eric Jin", "Jack Londono", "Rogan Mason", "Jack McGlinn", "Lachlan Penfold", "Brendon Stallaert", "Alec Stern", "Sachin Umashankar", "Chase Vermeulen", "David Vyhnal", "Alex Wainwright"],
+    },
+    
+    {
+        "teamName": "Boys JV Ultimate Frisbee",
+        "opponent": "Berkshire School",
+        "location": "Taylor Field",
+        "time": "April 22nd, 2020 at 3:00 pm",
+        "roster": ["Brendan Stallert", "Justin Han", "Jia Hua Chen", "Reece Yang", "Alex Xu", "Manuel Fernandes", "Yee Young Cher", "Sachin Umashankar", "Kelly Zuo", "Tina Deng"],
     },
 ]
