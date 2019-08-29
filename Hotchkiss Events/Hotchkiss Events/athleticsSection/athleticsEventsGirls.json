@@ -1,17 +1,25 @@
 [
     {
-        "teamName": "girlsTestTeam",
-        "opponent": "testOpponent",
-        "location": "testLocation",
-        "time": "testTime",
-        "roster": ["a", "b", "c", "d"],
+        "teamName": "Girls Varsity Volleyball",
+        "opponent": "Williston Northampton School",
+        "location": "Mars Jr. Athletic Center (MAC), Field House",
+        "time": "September 18th, 2019 at 3:30 pm",
+        "roster": ["Maggie Ottenbreit", "Ginny Barnes", "Nia Warren", "Harper Pertchik", "Emily Beautner", "Alaina Colby", "d", "b", "c", "d"],
     },
     
     {
-        "teamName": "girlsTestTeam2",
-        "opponent": "testOpponent2",
-        "location": "testLocation2",
-        "time": "testTime2",
-        "roster": ["a2", "b2", "c2", "d2"],
+        "teamName": "Girls JV Soccer",
+        "opponent": "Suffield Academy",
+        "location": "Downing Field",
+        "time": "September 28th, 2019 at 4:00 pm",
+        "roster": ["Eloise Berlandi", "Morgan Carr", "Leslie Herold", "Gwyneth Howell", "Mitra Kardestuncer", "Caroline Keswin", "Holly Knight", "Julia Lloyd", "Olivia Mooney", "Nicole Morikawa", "Christina Osborne", "Maria Saldivar Palacios", "Aurora Smedvig", "Maggie Smith", "Ella Welch", "Julia Willett", "Sofia Yawand-Wossen"],
+    },
+    
+    {
+        "teamName": "Girls Thirds Tennis",
+        "opponent": "Berkshire School",
+        "location": "Downing Field",
+        "time": "May 13th, 2020 at 1:30 pm",
+        "roster": ["Katerina Gill", "Ally Fertig", "Grace Hipple", "Claire Wang", "Arielle Szycher", "Olya Sukonrat", "Madeline Loeffler", "Kali Ryder", "Laura Hart", "Jill Lanzone", "Kate Danaher"],
     }
 ]

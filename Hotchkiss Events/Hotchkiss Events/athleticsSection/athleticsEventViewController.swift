@@ -34,7 +34,7 @@ class athleticsEventViewController: UIViewController
         let logoSides = bounds.size.width * 0.3
         logo?.frame = CGRect(x: 0, y: 0, width: logoSides, height: logoSides)
         
-        name?.frame = CGRect(x: logo!.frame.maxX, y: 0, width: bounds.size.width - logoSides - 4, height: logoSides)
+        name?.frame = CGRect(x: logo!.frame.maxX, y: 84, width: bounds.size.width - logoSides - 4, height: logoSides)
         name?.adjustsFontSizeToFitWidth = true
         
         let teamNameWidth = bounds.size.width - 86
