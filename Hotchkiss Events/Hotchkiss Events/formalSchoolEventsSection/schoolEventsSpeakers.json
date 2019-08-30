@@ -1,9 +1,9 @@
 [
     {
-        "eventName": "testEventSpeakers",
-        "time": "testTime",
-        "location": "testLocation",
-        "dressCode": "testDressCode",
-        "description": "testDescription",
+        "eventName": "MLK Day Speaker: Nyle Fort",
+        "time": "January 20th, 2020",
+        "location": "Elfers Hall",
+        "dressCode": "Special Event Dress",
+        "description": "Nyle Fort is a Ph.D student in the field of religion and African American studies where he researches race, religion and american politics. Working in fields such as churches, detention centers and other schools, this years MLK day invited speaker will share his unique insights in regards to the current generation accepting myths without considering context.",
     }
 ]
