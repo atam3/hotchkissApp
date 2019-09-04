@@ -94,7 +94,7 @@ class formalEventsEvent1ViewController: UIViewController
     {
         let controller = formalEventsMediaViewController()
         //FIXME: this needs to go
-        event?.imageNames = ["trails2", "trails2", "trails2", "trails2", "trails2"]
+        //event?.imageNames = ["trails2", "trails2", "trails2", "trails2", "trails2"]
         controller.formalSchoolEvent = event
         navigationController?.pushViewController(controller, animated: true)
     }

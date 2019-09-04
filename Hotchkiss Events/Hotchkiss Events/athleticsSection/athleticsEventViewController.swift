@@ -103,7 +103,7 @@ class athleticsEventViewController: UIViewController
     {
         let controller = athleticsMediaViewController()
         //FIXME: this needs to go
-        event?.imageNames = ["trails2", "trails2", "trails2", "trails2", "trails2"]
+        //event?.imageNames = ["trails2", "trails2", "trails2", "trails2", "trails2"]
         controller.athleticsEvent = event
         navigationController?.pushViewController(controller, animated: true)
     }
