@@ -47,6 +47,7 @@ class formalEventsMediaViewController: UIViewController, UICollectionViewDataSou
         collectionViewLayout?.itemSize = CGSize(width: 100, height: 70)
         
         collectionView?.register(UICollectionViewCell.self, forCellWithReuseIdentifier: "cell")
+        eventName?.text = formalSchoolEvent?.eventName
     }
     
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int

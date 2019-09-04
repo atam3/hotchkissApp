@@ -50,7 +50,7 @@ class athleticsMediaViewController: UIViewController, UICollectionViewDataSource
         
         
         collectionView?.register(UICollectionViewCell.self, forCellWithReuseIdentifier: "cell")
-       
+       teamName?.text = athleticsEvent?.teamName
     }
 
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int
